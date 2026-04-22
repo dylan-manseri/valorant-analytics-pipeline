@@ -17,7 +17,7 @@ Projet personnel d'initiation à la récupération, au traitement et à l'affich
 - [x] Stockage des données brutes dans un fichier `matches.json`
 
 ## 3. Schéma MCD
-- [ ] Analyse de la structure JSON de l'API, sélection des données pertinentes
+- [x] Analyse de la structure JSON de l'API, sélection des données pertinentes
 - [ ] Modélisation des entités et relations (matches, players, match_players, kill_events)
 - [ ] Création du MCD
 
