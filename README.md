@@ -18,8 +18,8 @@ Projet personnel d'initiation à la récupération, au traitement et à l'affich
 
 ## 3. Schéma MCD
 - [x] Analyse de la structure JSON de l'API, sélection des données pertinentes
-- [ ] Modélisation des entités et relations (matches, players, match_players, kill_events)
-- [ ] Création du MCD
+- [x] Modélisation des entités et relations (matches, players, match_players, kill_events)
+- [x] Création du MCD (cf. fichier docs)
 
 ## 4. Script SQL
 - [ ] À définir
