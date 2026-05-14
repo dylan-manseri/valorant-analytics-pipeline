@@ -116,17 +116,17 @@ def insert_team(cursor, party_info, party_id):
         id_team[color] = result[0]
     return id_team
 
-def insert_data(matches_json):
+def insert_data(matchs_json):
     """
     Fonction centralisant les insertions dans la base de données.
-    :param matches_json: Flux de données des 5 derniers matches.
+    :param matchs_json: Flux de données des cinq derniers matchs.
     :return:
     """
     connection = get_connection()
     cursor = connection.cursor()
     id_table = {}
     for i in range(5):
-        party_info = matches_json["data"][i]
+        party_info = matchs_json["data"][i]
         id_table["map"] = insert_map(cursor, party_info)
         id_table["party"] = insert_party(cursor, party_info, id_table["map"])
         if id_table["party"] is not None:
