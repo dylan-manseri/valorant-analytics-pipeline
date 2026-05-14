@@ -1,82 +1,85 @@
 CREATE TABLE Carte
 (
     map_id SERIAL PRIMARY KEY,
-    name VARCHAR(20) UNIQUE NOT NULL,
-    version FLOAT NOT NULL
-)
+    name VARCHAR(20) UNIQUE NOT NULL
+);
 
 CREATE TABLE Partie
 (
-    match_id SERIAL PRIMARY KEY,
+    party_id CHAR(36) PRIMARY KEY,
     map_id INT REFERENCES Carte(map_id),
     match_date DATE NOT NULL,
     mode VARCHAR(20) NOT NULL,
     server CHAR(3) NOT NULL,
     patch FLOAT NOT NULL
-)
+);
 
 CREATE TABLE Equipe
 (
-    team_id SERAIL PRIMARY KEY,
-    match_id INT REFERENCES Partie(match_id),
+    team_id SERIAL PRIMARY KEY,
+    party_id CHAR(36) REFERENCES Partie(party_id),
+    color VARCHAR(4) NOT NULL CHECK ( color in ('red', 'blue') ),
     has_won BOOLEAN,
     round_won INT NOT NULL,
     round_loss INT NOT NULL,
-    color VARCHAR(4) NOT NULL
-)
+    first_side CHAR(6) NOT NULL CHECK ( first_side IN ('attack', 'defense') )
+);
 
 CREATE TABLE Agent
 (
     agent_id SERIAL PRIMARY KEY,
     name VARCHAR(20) UNIQUE NOT NULL,
-    asset_agent VARCHAR(100) NULLABLE
-)
+    asset_agent VARCHAR(100)
+);
 
 CREATE TABLE Joueur
 (
-    puuid SERIAL PRIMARY KEY,
+    puuid CHAR(36) PRIMARY KEY,
     username VARCHAR(16) NOT NULL,
     tag VARCHAR(5) NOT NULL,
     level INT NOT NULL,
     rank VARCHAR(10) NOT NULL
-)
+);
 
 CREATE TABLE Compose
 (
-    puuid INT REFERENCES Joueur(puuid),
+    puuid CHAR(36) REFERENCES Joueur(puuid),
     team_id INT REFERENCES Equipe(team_id),
     agent_id INT REFERENCES Agent(agent_id),
-    PRIMARY KEY (puuid, team_id, agenti_id)
-)
+    kills INT NOT NULL,
+    deaths INT NOT NULL,
+    assists INT NOT NULL,
+    PRIMARY KEY (puuid, team_id, agent_id)
+);
 
 CREATE TABLE Armure
 (
     armor_id SERIAL PRIMARY KEY,
     armor_name VARCHAR(20) UNIQUE NOT NULL,
-    armor_asset VARCHAR(100) NULLABLE
-)
+    armor_asset VARCHAR(100)
+);
 
 CREATE TABLE Arme
 (
     weapon_id SERIAL PRIMARY KEY,
     weapon_name VARCHAR(20) UNIQUE NOT NULL,
-    weapon_asset VARCHAR(100) NULLABLE
-)
+    weapon_asset VARCHAR(100)
+);
 
 CREATE TABLE Round
 (
     round_id SERIAL PRIMARY KEY,
-    team_won INT REFERENCES Equipe(team_id)
+    team_won INT REFERENCES Equipe(team_id),
     end_type VARCHAR(20) NOT NULL,
     bomb_planted BOOLEAN NOT NULL,
     bomb_defused BOOLEAN NOT NULL,
     plant_site CHAR(1) NOT NULL,
-    plant_time_in_round INT NULLABLE
-)
+    plant_time_in_round INT
+);
 
 CREATE TABLE Joue
 (
-    puuid INT REFERENCES Joueur(puuid),
+    puuid CHAR(36) REFERENCES Joueur(puuid),
     armor_id INT REFERENCES Armure(armor_id),
     weapon_id INT REFERENCES Arme(weapon_id),
     round_id INT REFERENCES  Round(round_id),
@@ -89,14 +92,14 @@ CREATE TABLE Joue
     spent INT NOT NULL,
     remaining INT NOT NULL,
     PRIMARY KEY(puuid, armor_id, weapon_id, round_id)
-)
+);
 
 CREATE TABLE Evenement_joueur
 (
     id_event_player SERIAL PRIMARY KEY,
-    victim INT REFERENCES Joueur(puuid),
-    author INT REFERENCES Joueur(puuid)
-)
+    victim CHAR(36) REFERENCES Joueur(puuid),
+    author CHAR(36) REFERENCES Joueur(puuid)
+);
 
 CREATE TABLE Elimination
 (
@@ -108,7 +111,7 @@ CREATE TABLE Elimination
     killer_location_x FLOAT NOT NULL,
     killer_location_y FLOAT NOT NULL,
     PRIMARY KEY (kill_id)
-)
+);
 
 CREATE TABLE Degat
 (
@@ -117,13 +120,13 @@ CREATE TABLE Degat
     bodyshot INT NOT NULL,
     legshot INT NOT NULL,
     PRIMARY KEY (damage_id)
-)
+);
 
 CREATE TABLE Localisation_alliee
 (
     teammate_location_id SERIAL PRIMARY KEY,
-    player_id INT REFERENCES Joueur(puuid),
+    player_id CHAR(36) REFERENCES Joueur(puuid),
     kill_id INT REFERENCES Elimination(kill_id),
     x INT NOT NULL,
     y INT NOT NULL
-)
+);

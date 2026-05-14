@@ -1,10 +1,11 @@
+"""
+api_client.py
+-----
+Fonctions de récupérations du flux des 5 derniers matchs via l'API Henrik.
+Auteur : Dylan Manseri
+"""
 import requests
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-API_KEY = os.getenv("HENRIK_API_KEY")
+from config import API_KEY
 
 BASE_URL = "https://api.henrikdev.xyz/valorant"
 HEADERS = {
