@@ -23,7 +23,7 @@ DB_PASSWORD = os.getenv("DB_PASSWORD")
 # CONFIGURATION API
 # ============================================================
 
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("HENRIK_API_KEY")
 
 # ============================================================
 # CONFIGURATION DES LOGS

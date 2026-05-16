@@ -1,0 +1,152 @@
+2026-05-16 22:28:56,132 - INFO - ==================================================
+2026-05-16 22:28:56,132 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-16 22:28:56,132 - INFO - ==================================================
+2026-05-16 22:28:56,134 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-16 22:28:56,463 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-16 22:28:56,463 - INFO - Connexion etablit [OK]
+2026-05-16 22:28:56,465 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-16 22:28:57,114 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-16 22:28:57,244 - INFO - Carte inseree [OK] : Split
+2026-05-16 22:28:57,245 - INFO - Match inseree [OK] : b4722c7d-2b6f-44ad-a78e-65015fa5fb5d
+2026-05-16 22:28:57,247 - INFO - Joueur inseree [OK] : 21823727-a16c-5185-8e6c-0aa16d06e17a
+2026-05-16 22:28:57,248 - INFO - Agent inseree [OK] : Sova
+2026-05-16 22:28:57,249 - INFO - Compose inseree [OK] : ('21823727-a16c-5185-8e6c-0aa16d06e17a', 2, 1)
+2026-05-16 22:28:57,249 - INFO - Joueur inseree [OK] : d4c36000-cef9-577f-88c1-e4f4373c78ca
+2026-05-16 22:28:57,249 - INFO - Agent inseree [OK] : Chamber
+2026-05-16 22:28:57,249 - INFO - Compose inseree [OK] : ('d4c36000-cef9-577f-88c1-e4f4373c78ca', 1, 2)
+2026-05-16 22:28:57,250 - INFO - Joueur inseree [OK] : 5500b751-67fb-5a7e-a4c1-0f8cad6cf470
+2026-05-16 22:28:57,250 - INFO - Agent inseree [OK] : Fade
+2026-05-16 22:28:57,250 - INFO - Compose inseree [OK] : ('5500b751-67fb-5a7e-a4c1-0f8cad6cf470', 1, 3)
+2026-05-16 22:28:57,250 - INFO - Joueur inseree [OK] : 099f27a9-4e9e-57b2-a791-07a130b841f2
+2026-05-16 22:28:57,250 - INFO - Agent inseree [OK] : Miks
+2026-05-16 22:28:57,251 - INFO - Compose inseree [OK] : ('099f27a9-4e9e-57b2-a791-07a130b841f2', 2, 4)
+2026-05-16 22:28:57,251 - INFO - Joueur inseree [OK] : 3a419503-912d-5189-8bca-1a359920234e
+2026-05-16 22:28:57,251 - INFO - Agent inseree [OK] : Reyna
+2026-05-16 22:28:57,251 - INFO - Compose inseree [OK] : ('3a419503-912d-5189-8bca-1a359920234e', 2, 5)
+2026-05-16 22:28:57,251 - INFO - Joueur inseree [OK] : 95b0a212-ac5c-5d83-ba34-2010b9b9c5da
+2026-05-16 22:28:57,251 - INFO - Agent inseree [OK] : Jett
+2026-05-16 22:28:57,252 - INFO - Compose inseree [OK] : ('95b0a212-ac5c-5d83-ba34-2010b9b9c5da', 2, 6)
+2026-05-16 22:28:57,252 - INFO - Joueur inseree [OK] : 0410ce86-0967-5ea2-ac90-0ab71acf179e
+2026-05-16 22:28:57,252 - INFO - Agent inseree [OK] : Raze
+2026-05-16 22:28:57,252 - INFO - Compose inseree [OK] : ('0410ce86-0967-5ea2-ac90-0ab71acf179e', 1, 7)
+2026-05-16 22:28:57,252 - INFO - Joueur inseree [OK] : cfc09887-3295-5f45-881e-e899d13d1e66
+2026-05-16 22:28:57,252 - INFO - Agent inseree [OK] : Omen
+2026-05-16 22:28:57,252 - INFO - Compose inseree [OK] : ('cfc09887-3295-5f45-881e-e899d13d1e66', 1, 8)
+2026-05-16 22:28:57,253 - INFO - Joueur inseree [OK] : db87c479-a33d-5e64-bfba-ec4a40a592b0
+2026-05-16 22:28:57,253 - INFO - Agent deja existant [WARN] : Jett
+2026-05-16 22:28:57,253 - INFO - Compose inseree [OK] : ('db87c479-a33d-5e64-bfba-ec4a40a592b0', 1, 6)
+2026-05-16 22:28:57,254 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-16 22:28:57,254 - INFO - Agent inseree [OK] : Killjoy
+2026-05-16 22:28:57,254 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 2, 10)
+2026-05-16 22:28:57,254 - INFO - Carte inseree [OK] : Lotus
+2026-05-16 22:28:57,254 - INFO - Match inseree [OK] : 93a5ca57-485c-40f2-8925-0afc0d3915cc
+2026-05-16 22:28:57,255 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-16 22:28:57,255 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-16 22:28:57,255 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 3, 10)
+2026-05-16 22:28:57,255 - INFO - Joueur inseree [OK] : 310aa1e8-ce77-51ef-9e9f-f570e320354b
+2026-05-16 22:28:57,256 - INFO - Agent inseree [OK] : Iso
+2026-05-16 22:28:57,256 - INFO - Compose inseree [OK] : ('310aa1e8-ce77-51ef-9e9f-f570e320354b', 3, 12)
+2026-05-16 22:28:57,256 - INFO - Joueur inseree [OK] : f81f237d-d1e7-5088-9dfb-0967d5213100
+2026-05-16 22:28:57,256 - INFO - Agent inseree [OK] : Waylay
+2026-05-16 22:28:57,256 - INFO - Compose inseree [OK] : ('f81f237d-d1e7-5088-9dfb-0967d5213100', 3, 13)
+2026-05-16 22:28:57,256 - INFO - Joueur inseree [OK] : d5d04a57-568e-5d23-882f-9979a4953a8b
+2026-05-16 22:28:57,257 - INFO - Agent deja existant [WARN] : Sova
+2026-05-16 22:28:57,257 - INFO - Compose inseree [OK] : ('d5d04a57-568e-5d23-882f-9979a4953a8b', 3, 1)
+2026-05-16 22:28:57,257 - INFO - Joueur inseree [OK] : 349e5984-3708-555e-a821-44fe0598651d
+2026-05-16 22:28:57,257 - INFO - Agent inseree [OK] : Brimstone
+2026-05-16 22:28:57,257 - INFO - Compose inseree [OK] : ('349e5984-3708-555e-a821-44fe0598651d', 3, 15)
+2026-05-16 22:28:57,257 - INFO - Joueur inseree [OK] : 31ff6685-156b-5e56-a05c-89baab1f15ee
+2026-05-16 22:28:57,258 - INFO - Agent deja existant [WARN] : Jett
+2026-05-16 22:28:57,258 - INFO - Compose inseree [OK] : ('31ff6685-156b-5e56-a05c-89baab1f15ee', 4, 6)
+2026-05-16 22:28:57,258 - INFO - Joueur inseree [OK] : 9a5c891e-d225-5ce8-9c08-bbff2ad048bd
+2026-05-16 22:28:57,258 - INFO - Agent inseree [OK] : Phoenix
+2026-05-16 22:28:57,258 - INFO - Compose inseree [OK] : ('9a5c891e-d225-5ce8-9c08-bbff2ad048bd', 4, 17)
+2026-05-16 22:28:57,259 - INFO - Joueur inseree [OK] : e2f002c3-c037-5605-a981-073b6311893f
+2026-05-16 22:28:57,259 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-16 22:28:57,259 - INFO - Compose inseree [OK] : ('e2f002c3-c037-5605-a981-073b6311893f', 4, 5)
+2026-05-16 22:28:57,259 - INFO - Joueur inseree [OK] : 0841c8c5-b0aa-5e00-bcf7-a276bca8a5c9
+2026-05-16 22:28:57,259 - INFO - Agent inseree [OK] : KAY/O
+2026-05-16 22:28:57,260 - INFO - Compose inseree [OK] : ('0841c8c5-b0aa-5e00-bcf7-a276bca8a5c9', 4, 19)
+2026-05-16 22:28:57,260 - INFO - Joueur inseree [OK] : a10209e6-5f94-5a92-b478-872def95ae7c
+2026-05-16 22:28:57,260 - INFO - Agent deja existant [WARN] : Omen
+2026-05-16 22:28:57,260 - INFO - Compose inseree [OK] : ('a10209e6-5f94-5a92-b478-872def95ae7c', 4, 8)
+2026-05-16 22:28:57,260 - INFO - Carte inseree [OK] : Ascent
+2026-05-16 22:28:57,261 - INFO - Match inseree [OK] : dfa266bc-41b9-4493-85ba-ba222f367307
+2026-05-16 22:28:57,261 - INFO - Joueur inseree [OK] : 0ef20b7e-aca0-562b-925d-c2afcc0cb45e
+2026-05-16 22:28:57,261 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-16 22:28:57,262 - INFO - Compose inseree [OK] : ('0ef20b7e-aca0-562b-925d-c2afcc0cb45e', 6, 5)
+2026-05-16 22:28:57,262 - INFO - Joueur inseree [OK] : 1199abb5-b715-5f0e-85af-ef543c04f158
+2026-05-16 22:28:57,262 - INFO - Agent deja existant [WARN] : Jett
+2026-05-16 22:28:57,262 - INFO - Compose inseree [OK] : ('1199abb5-b715-5f0e-85af-ef543c04f158', 5, 6)
+2026-05-16 22:28:57,262 - INFO - Joueur inseree [OK] : 47df5b6c-ff65-5618-b5b8-6233b1fe0fd9
+2026-05-16 22:28:57,262 - INFO - Agent deja existant [WARN] : Fade
+2026-05-16 22:28:57,263 - INFO - Compose inseree [OK] : ('47df5b6c-ff65-5618-b5b8-6233b1fe0fd9', 5, 3)
+2026-05-16 22:28:57,263 - INFO - Joueur inseree [OK] : d62400db-0e2f-5659-a0ab-aef66ff266c7
+2026-05-16 22:28:57,263 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-16 22:28:57,263 - INFO - Compose inseree [OK] : ('d62400db-0e2f-5659-a0ab-aef66ff266c7', 5, 10)
+2026-05-16 22:28:57,263 - INFO - Joueur inseree [OK] : 2d941994-4177-5378-90c6-8b33528cc5dc
+2026-05-16 22:28:57,263 - INFO - Agent deja existant [WARN] : Waylay
+2026-05-16 22:28:57,264 - INFO - Compose inseree [OK] : ('2d941994-4177-5378-90c6-8b33528cc5dc', 6, 13)
+2026-05-16 22:28:57,264 - INFO - Joueur inseree [OK] : 3bd4e43d-9d58-5c29-bcea-c703425e3865
+2026-05-16 22:28:57,264 - INFO - Agent inseree [OK] : Clove
+2026-05-16 22:28:57,264 - INFO - Compose inseree [OK] : ('3bd4e43d-9d58-5c29-bcea-c703425e3865', 5, 26)
+2026-05-16 22:28:57,264 - INFO - Joueur inseree [OK] : 0ae62739-cb39-537f-974a-37c03a6b19e0
+2026-05-16 22:28:57,264 - INFO - Agent deja existant [WARN] : Raze
+2026-05-16 22:28:57,265 - INFO - Compose inseree [OK] : ('0ae62739-cb39-537f-974a-37c03a6b19e0', 5, 7)
+2026-05-16 22:28:57,265 - INFO - Joueur inseree [OK] : 22d3de9e-4aac-55a9-85a3-2cd24e9d23d8
+2026-05-16 22:28:57,265 - INFO - Agent deja existant [WARN] : Fade
+2026-05-16 22:28:57,265 - INFO - Compose inseree [OK] : ('22d3de9e-4aac-55a9-85a3-2cd24e9d23d8', 6, 3)
+2026-05-16 22:28:57,265 - INFO - Joueur inseree [OK] : 1bf4eb8e-eebe-5de3-882e-48488ee7c1e0
+2026-05-16 22:28:57,265 - INFO - Agent deja existant [WARN] : Miks
+2026-05-16 22:28:57,266 - INFO - Compose inseree [OK] : ('1bf4eb8e-eebe-5de3-882e-48488ee7c1e0', 6, 4)
+2026-05-16 22:28:57,266 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-16 22:28:57,266 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-16 22:28:57,266 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 6, 10)
+2026-05-16 22:28:57,266 - INFO - Carte inseree [OK] : Fracture
+2026-05-16 22:28:57,267 - INFO - Match inseree [OK] : e9e95ce5-fe87-4b7f-8edc-6228921a344a
+2026-05-16 22:28:57,267 - INFO - Joueur inseree [OK] : 0fe18143-515b-5279-89c1-83f0ca8aa10a
+2026-05-16 22:28:57,267 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-16 22:28:57,267 - INFO - Compose inseree [OK] : ('0fe18143-515b-5279-89c1-83f0ca8aa10a', 8, 5)
+2026-05-16 22:28:57,268 - INFO - Joueur inseree [OK] : fd354695-56b4-589a-8c44-6d1a209c5b82
+2026-05-16 22:28:57,268 - INFO - Agent deja existant [WARN] : Jett
+2026-05-16 22:28:57,268 - INFO - Compose inseree [OK] : ('fd354695-56b4-589a-8c44-6d1a209c5b82', 8, 6)
+2026-05-16 22:28:57,268 - INFO - Joueur inseree [OK] : 45da3ebf-0d96-54a4-b7c5-f4c967a04e0b
+2026-05-16 22:28:57,268 - INFO - Agent deja existant [WARN] : Miks
+2026-05-16 22:28:57,268 - INFO - Compose inseree [OK] : ('45da3ebf-0d96-54a4-b7c5-f4c967a04e0b', 8, 4)
+2026-05-16 22:28:57,269 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-16 22:28:57,269 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-16 22:28:57,269 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 8, 10)
+2026-05-16 22:28:57,269 - INFO - Joueur inseree [OK] : 9b7197a5-9ec0-5059-a6c3-d4ccd70b1181
+2026-05-16 22:28:57,269 - INFO - Agent deja existant [WARN] : Omen
+2026-05-16 22:28:57,270 - INFO - Compose inseree [OK] : ('9b7197a5-9ec0-5059-a6c3-d4ccd70b1181', 7, 8)
+2026-05-16 22:28:57,270 - INFO - Joueur inseree [OK] : 13967e78-2ef8-57ba-9a83-896382c2288c
+2026-05-16 22:28:57,270 - INFO - Agent inseree [OK] : Tejo
+2026-05-16 22:28:57,270 - INFO - Compose inseree [OK] : ('13967e78-2ef8-57ba-9a83-896382c2288c', 7, 36)
+2026-05-16 22:28:57,270 - INFO - Joueur inseree [OK] : d2070828-d8e3-54b6-b533-f6c9a4b27351
+2026-05-16 22:28:57,270 - INFO - Agent inseree [OK] : Gekko
+2026-05-16 22:28:57,270 - INFO - Compose inseree [OK] : ('d2070828-d8e3-54b6-b533-f6c9a4b27351', 8, 37)
+2026-05-16 22:28:57,271 - INFO - Joueur inseree [OK] : 7bd18d68-8843-5636-bf9d-4d7081e344c2
+2026-05-16 22:28:57,271 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-16 22:28:57,271 - INFO - Compose inseree [OK] : ('7bd18d68-8843-5636-bf9d-4d7081e344c2', 7, 5)
+2026-05-16 22:28:57,271 - INFO - Joueur inseree [OK] : 6ea5c80d-45d2-5e53-b71f-354d76ea619c
+2026-05-16 22:28:57,271 - INFO - Agent deja existant [WARN] : Waylay
+2026-05-16 22:28:57,272 - INFO - Compose inseree [OK] : ('6ea5c80d-45d2-5e53-b71f-354d76ea619c', 7, 13)
+2026-05-16 22:28:57,272 - INFO - Joueur inseree [OK] : ec0699fb-aba1-5da8-8dc7-3781bd8cd936
+2026-05-16 22:28:57,272 - INFO - Agent deja existant [WARN] : Chamber
+2026-05-16 22:28:57,272 - INFO - Compose inseree [OK] : ('ec0699fb-aba1-5da8-8dc7-3781bd8cd936', 7, 2)
+2026-05-16 22:29:01,497 - INFO - ==================================================
+2026-05-16 22:29:01,498 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-16 22:29:01,498 - INFO - ==================================================
+2026-05-16 22:29:01,499 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-16 22:29:01,785 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-16 22:29:01,785 - INFO - Connexion etablit [OK]
+2026-05-16 22:29:01,787 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-16 22:29:02,138 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-16 22:29:02,276 - INFO - Carte deja existante [WARN] : Split
+2026-05-16 22:29:02,277 - WARNING - Match deja existant [ERR] : b4722c7d-2b6f-44ad-a78e-65015fa5fb5d
+2026-05-16 22:29:02,277 - INFO - Carte deja existante [WARN] : Lotus
+2026-05-16 22:29:02,278 - WARNING - Match deja existant [ERR] : 93a5ca57-485c-40f2-8925-0afc0d3915cc
+2026-05-16 22:29:02,278 - INFO - Carte deja existante [WARN] : Ascent
+2026-05-16 22:29:02,278 - WARNING - Match deja existant [ERR] : dfa266bc-41b9-4493-85ba-ba222f367307
+2026-05-16 22:29:02,278 - INFO - Carte deja existante [WARN] : Fracture
+2026-05-16 22:29:02,279 - WARNING - Match deja existant [ERR] : e9e95ce5-fe87-4b7f-8edc-6228921a344a

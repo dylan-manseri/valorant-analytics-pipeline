@@ -10,7 +10,7 @@ CREATE TABLE Partie
     map_id INT REFERENCES Carte(map_id),
     match_date DATE NOT NULL,
     mode VARCHAR(20) NOT NULL,
-    server CHAR(3) NOT NULL,
+    server VARCHAR(9) NOT NULL,
     patch FLOAT NOT NULL
 );
 
@@ -19,17 +19,17 @@ CREATE TABLE Equipe
     team_id SERIAL PRIMARY KEY,
     party_id CHAR(36) REFERENCES Partie(party_id),
     color VARCHAR(4) NOT NULL CHECK ( color in ('red', 'blue') ),
-    has_won BOOLEAN,
+    has_won BOOLEAN NOT NULL,
     round_won INT NOT NULL,
-    round_loss INT NOT NULL,
-    first_side CHAR(6) NOT NULL CHECK ( first_side IN ('attack', 'defense') )
+    round_lost INT NOT NULL,
+    first_side VARCHAR(7) CHECK ( first_side IN ('attack', 'defense'))
 );
 
 CREATE TABLE Agent
 (
     agent_id SERIAL PRIMARY KEY,
     name VARCHAR(20) UNIQUE NOT NULL,
-    asset_agent VARCHAR(100)
+    asset_agent VARCHAR(255)
 );
 
 CREATE TABLE Joueur
@@ -37,8 +37,9 @@ CREATE TABLE Joueur
     puuid CHAR(36) PRIMARY KEY,
     username VARCHAR(16) NOT NULL,
     tag VARCHAR(5) NOT NULL,
-    level INT NOT NULL,
-    rank VARCHAR(10) NOT NULL
+    account_level INT NOT NULL,
+    rank VARCHAR(10) NOT NULL,
+    card VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE Compose
@@ -56,14 +57,14 @@ CREATE TABLE Armure
 (
     armor_id SERIAL PRIMARY KEY,
     armor_name VARCHAR(20) UNIQUE NOT NULL,
-    armor_asset VARCHAR(100)
+    asset_armor VARCHAR(255)
 );
 
 CREATE TABLE Arme
 (
     weapon_id SERIAL PRIMARY KEY,
     weapon_name VARCHAR(20) UNIQUE NOT NULL,
-    weapon_asset VARCHAR(100)
+    asset_weapon VARCHAR(255)
 );
 
 CREATE TABLE Round
@@ -74,7 +75,9 @@ CREATE TABLE Round
     bomb_planted BOOLEAN NOT NULL,
     bomb_defused BOOLEAN NOT NULL,
     plant_site CHAR(1) NOT NULL,
-    plant_time_in_round INT
+    plant_time_in_round INT,
+    plant_coord_x FLOAT,
+    plant_coord_y FLOAT
 );
 
 CREATE TABLE Joue
@@ -127,6 +130,6 @@ CREATE TABLE Localisation_alliee
     teammate_location_id SERIAL PRIMARY KEY,
     player_id CHAR(36) REFERENCES Joueur(puuid),
     kill_id INT REFERENCES Elimination(kill_id),
-    x INT NOT NULL,
-    y INT NOT NULL
+    x FLOAT NOT NULL,
+    y FLOAT NOT NULL
 );
