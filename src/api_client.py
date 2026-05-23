@@ -23,9 +23,9 @@ def request_player(name, tag):
     :param tag: Le tag du joueur.
     :return: Le flux de données.
     """
-    logging.info("=" * 50)
+    logging.info("=" * 100)
     logging.info("   NOUVELLE CONNEXION VERS HENRIK API")
-    logging.info("=" * 50)
+    logging.info("=" * 100)
     url = f"{BASE_URL}/v1/account/{name}/{tag}"
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:

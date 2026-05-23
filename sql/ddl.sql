@@ -55,26 +55,27 @@ CREATE TABLE Compose
 
 CREATE TABLE Armure
 (
-    armor_id SERIAL PRIMARY KEY,
-    armor_name VARCHAR(20) UNIQUE NOT NULL,
+    armor_id CHAR(36) PRIMARY KEY,
+    armor_name VARCHAR(20) UNIQUE,
     asset_armor VARCHAR(255)
 );
 
 CREATE TABLE Arme
 (
-    weapon_id SERIAL PRIMARY KEY,
-    weapon_name VARCHAR(20) UNIQUE NOT NULL,
+    weapon_id CHAR(36) PRIMARY KEY,
+    weapon_name VARCHAR(20) UNIQUE,
     asset_weapon VARCHAR(255)
 );
 
 CREATE TABLE Round
 (
     round_id SERIAL PRIMARY KEY,
-    team_won INT REFERENCES Equipe(team_id),
+    number INT NOT NULL,
+    winning_team_id INT REFERENCES Equipe(team_id),
     end_type VARCHAR(20) NOT NULL,
     bomb_planted BOOLEAN NOT NULL,
     bomb_defused BOOLEAN NOT NULL,
-    plant_site CHAR(1) NOT NULL,
+    plant_site CHAR(1),
     plant_time_in_round INT,
     plant_coord_x FLOAT,
     plant_coord_y FLOAT
@@ -83,13 +84,13 @@ CREATE TABLE Round
 CREATE TABLE Joue
 (
     puuid CHAR(36) REFERENCES Joueur(puuid),
-    armor_id INT REFERENCES Armure(armor_id),
-    weapon_id INT REFERENCES Arme(weapon_id),
+    armor_id CHAR(36) REFERENCES Armure(armor_id),
+    weapon_id CHAR(36) REFERENCES Arme(weapon_id),
     round_id INT REFERENCES  Round(round_id),
-    ability_cast_x INT NOT NULL,
-    ability_cast_e INT NOT NULL,
-    ability_cast_q INT NOT NULL,
-    ability_cast_c INT NOT NULL,
+    ability_cast_x INT,
+    ability_cast_e INT,
+    ability_cast_q INT,
+    ability_cast_c INT,
     score INT NOT NULL,
     loadout_value INT NOT NULL,
     spent INT NOT NULL,
