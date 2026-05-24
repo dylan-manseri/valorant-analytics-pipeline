@@ -12,6 +12,43 @@ from psycopg2.extensions import cursor as PostgresCursor
 from config import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD
 from datetime import datetime
 
+# =========================
+# CACHES APPLICATIFS
+# =========================
+_CACHE_MAPS: Optional[Dict[str, int]] = None
+_CACHE_AGENTS: Optional[Dict[str, int]] = None
+_CACHE_ARMES: Optional[Dict[str, str]] = None
+_CACHE_ARMURE: Optional[Dict[str, str]] = None
+
+def _init_caches(cursor : PostgresCursor) -> None:
+    """
+    Remplit les caches en mémoire pour réduire le nombre de requêtes du script.
+    :param cursor: Curseur Postgres les requêtes de la base de données.
+    :return: None
+    """
+    global _CACHE_MAPS, _CACHE_ARMES, _CACHE_ARMURE, _CACHE_AGENTS
+
+    if _CACHE_MAPS is None:
+        logging.info("Chargement du caches des cartes...")
+        cursor.execute("""SELECT map_name, map_id FROM Carte""")
+        # Passage de tuples a un dictionnaire, premier élement ← clé.
+        _CACHE_MAPS = dict(cursor.fetchall())
+
+    if _CACHE_ARMES is None:
+        logging.info("Chargement du cache des armes...")
+        cursor.execute("""SELECT weapon_name, weapon_id FROM Arme""")
+        _CACHE_ARMES = dict(cursor.fetchall())
+
+    if _CACHE_ARMURE is None:
+        logging.info("Chargement du cache des armures...")
+        cursor.execute("""SELECT armor_name, armor_id FROM Armure""")
+        _CACHE_ARMURE = dict(cursor.fetchall())
+
+    if _CACHE_AGENTS is None:
+        logging.info("Chargement du cache des agents...")
+        cursor.execute("""SELECT agent_name, agent_id FROM Agent""")
+        _CACHE_AGENTS = dict(cursor.fetchall())
+
 def get_connection() -> Any:
     """Retourne une connexion psycopg2 configurée depuis les variables d'env."""
     return psycopg2.connect(
@@ -28,25 +65,27 @@ def insert_map(cursor: PostgresCursor,
     Insère la carte si absente, retourne son map_id dans tous les cas.
     :param party_info: Flux JSON d'une partie (API Henrik).
     """
-    name = party_info["metadata"]["map"]
+    map_name = party_info["metadata"]["map"]
 
+    # Optimisation : pas de requête si la map est déjà dans le cache.
+    if map_name in _CACHE_MAPS:
+        logging.info(f"Carte deja existante [WARN] : {map_name}")
+        return _CACHE_MAPS[map_name]
+
+    # Au cas où le cache ne fonctionne pas correctement, ON CONFLICT évite les erreurs
     cursor.execute("""
-        INSERT INTO Carte (name)
+        INSERT INTO Carte (map_name)
         VALUES (%s)
-        ON CONFLICT (name) DO NOTHING
+        ON CONFLICT (map_name) DO NOTHING
         RETURNING map_id
-    """, (name,))
+    """, (map_name,))
 
     result = cursor.fetchone()
     if result:
-        logging.info(f"Carte inseree [OK] : {name}")
-        map_id = result[0]
-    else:
-        # ON CONFLICT DO NOTHING ne retourne rien, SELECT nécessaire
-        logging.info(f"Carte deja existante [WARN] : {name}")
-        cursor.execute("SELECT map_id FROM Carte WHERE name = %s", (name,))
-        map_id = cursor.fetchone()[0]
-    return map_id
+        logging.info(f"Carte inseree [OK] : {map_name}")
+        _CACHE_MAPS[map_name] = result[0]
+        return result[0]
+    raise Exception(f"Cache désynchronisé : {map_name} absent du cache et déjà en base")
 
 def insert_party(cursor: PostgresCursor,
                  party_info: Dict[str, Any],
@@ -119,7 +158,7 @@ def insert_team(cursor: PostgresCursor,
         id_team[color] = result[0]
     return id_team
 
-def insertPlayer(cursor: PostgresCursor,
+def insert_player(cursor: PostgresCursor,
                  player: Dict[str, Any]) -> str:
     """
     Insère un joueur ou met à jour username/rank/level s'il existe déjà.
@@ -146,29 +185,32 @@ def insertPlayer(cursor: PostgresCursor,
         logging.warning(f"Erreur d'insertion joueur [ERR] : {puuid}")
     return puuid
 
-def insertAgent(cursor: PostgresCursor,
+def insert_agent(cursor: PostgresCursor,
                 player: Dict[str, Any]) -> int:
     """
     Insère un agent si absent, retourne son agent_id dans tous les cas.
     :param player: Données JSON d'un joueur dans la partie.
     """
-    name = player["character"]
+    agent_name = player["character"]
     asset_agent = player["assets"]["agent"]["full"]
+
+    if agent_name in _CACHE_AGENTS:
+        logging.info(f"Agent deja existant [WARN] : {agent_name}")
+        return _CACHE_AGENTS[agent_name]
+
     cursor.execute("""
-        INSERT INTO Agent (name, asset_agent)
+        INSERT INTO Agent (agent_name, asset_agent)
                 VALUES (%s, %s)
-                ON CONFLICT (name) DO NOTHING
+                ON CONFLICT (agent_name) DO NOTHING
                 RETURNING agent_id
-        """, (name, asset_agent))
+        """, (agent_name, asset_agent))
     result = cursor.fetchone()
     if result:
-        logging.info(f"Agent inseree [OK] : {name}")
+        logging.info(f"Agent inseree [OK] : {agent_name}")
         agent_id = result[0]
-    else:
-        logging.info(f"Agent deja existant [WARN] : {name}")
-        cursor.execute("SELECT agent_id FROM Agent WHERE name = %s", (name,))
-        agent_id = cursor.fetchone()[0]
-    return agent_id
+        _CACHE_AGENTS[agent_name] = agent_id
+        return agent_id
+    raise Exception(f"Cache désynchronisé : {agent_name} absent du cache et déjà en base")
 
 def insert_compose(cursor: PostgresCursor,
                    party_info: Dict[str, Any],
@@ -182,8 +224,8 @@ def insert_compose(cursor: PostgresCursor,
     for player in players:
         team = player["team"].lower()
         team_id = teams_id[team]
-        puuid = insertPlayer(cursor, player)
-        agent_id = insertAgent(cursor, player)
+        puuid = insert_player(cursor, player)
+        agent_id = insert_agent(cursor, player)
 
         kills = player["stats"]["kills"]
         deaths = player["stats"]["deaths"]
@@ -252,39 +294,53 @@ def insert_arme(cursor: PostgresCursor,
         asset_weapon = weapon_info["assets"]["display_icon"]
     else:
         weapon_id = "00000000-0000-0000-0000-000000000001"
-        weapon_name = None
-        asset_weapon = None
+        weapon_name = "unknown_weapon"
+        asset_weapon = "unknown_weapon"
+
+    if weapon_name in _CACHE_ARMES:
+        logging.info(f"Arme deja existante [WARN] : {weapon_name}")
+        return _CACHE_ARMES[weapon_name]
+
     cursor.execute("""
         INSERT INTO Arme (weapon_id, weapon_name, asset_weapon)
             VALUES (%s, %s, %s)
             ON CONFLICT (weapon_id) DO NOTHING
+            RETURNING weapon_id
                    """, (weapon_id, weapon_name, asset_weapon))
-    if cursor.rowcount == 1:
+    result = cursor.fetchone()
+    if result:
         logging.info(f"Arme inseree [OK] : {weapon_name}")
-    else:
-        logging.info(f"Arme deja existante [INFO] : {weapon_name}")
-    return weapon_id
+        _CACHE_ARMES[weapon_name] = result[0]
+        return result[0]
+    raise Exception(f"Cache désynchronisé : {weapon_id} absent du cache et déjà en base")
 
 
 def insert_armor(cursor: PostgresCursor,
-                 player_stat: Dict[str, Any]) -> str | Any:
+                 player_stat: Dict[str, Any]) -> str:
     """
     Insère une armure si absente, retourne son armor_id dans tous les cas.
     :param player_stat: Données JSON d'un joueur pour un round.
     """
     armor_info = player_stat["economy"]["armor"]
     armor_id = armor_info["id"] if armor_info["id"] else "00000000-0000-0000-0000-000000000000"
-    armor_name = armor_info["name"]
-    asset_armor = armor_info["assets"]["display_icon"]
+    armor_name = armor_info["name"] if armor_info["name"] else "unknown_armor"
+    asset_armor = armor_info["assets"]["display_icon"] if armor_info["assets"] else "unknown_armor"
+
+    if armor_name in _CACHE_ARMURE:
+        logging.info(f"Armure deja existante [WARN] : {armor_name}")
+        return _CACHE_ARMURE[armor_name]
+
     cursor.execute("""
                    INSERT INTO Armure (armor_id, armor_name, asset_armor)
                    VALUES (%s, %s, %s) ON CONFLICT (armor_id) DO NOTHING
+                   RETURNING armor_id
                    """, (armor_id, armor_name, asset_armor))
-    if cursor.rowcount == 1:
+    result = cursor.fetchone()
+    if result:
         logging.info(f"Armure inseree [OK] : {armor_name}")
-    else:
-        logging.info(f"Armure deja existante [INFO] : {armor_name}")
-    return armor_id
+        _CACHE_ARMURE[armor_name] = result[0]
+        return result[0]
+    raise Exception(f"Cache désynchronisé : {armor_id} absent du cache et déjà en base")
 
 def joue_attribut(player_stat: Dict[str, Any],
                   round_id: int,
@@ -343,6 +399,7 @@ def insert_data(matchs_json: Dict[str, Any]) -> None:
     try:
         connection = get_connection()
         cursor = connection.cursor()
+        _init_caches(cursor)
         for party_info in matchs_json["data"]:
             if party_info["metadata"]["mode_id"] == "competitive" :
                 map_id = insert_map(cursor, party_info)

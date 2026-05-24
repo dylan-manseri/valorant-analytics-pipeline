@@ -1,7 +1,7 @@
 CREATE TABLE Carte
 (
     map_id SERIAL PRIMARY KEY,
-    name VARCHAR(20) UNIQUE NOT NULL
+    map_name VARCHAR(20) UNIQUE NOT NULL
 );
 
 CREATE TABLE Partie
@@ -28,7 +28,7 @@ CREATE TABLE Equipe
 CREATE TABLE Agent
 (
     agent_id SERIAL PRIMARY KEY,
-    name VARCHAR(20) UNIQUE NOT NULL,
+    agent_name VARCHAR(20) UNIQUE NOT NULL,
     asset_agent VARCHAR(255)
 );
 

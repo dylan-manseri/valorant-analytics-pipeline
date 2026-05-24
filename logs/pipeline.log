@@ -6114,3 +6114,2459 @@ DETAIL:  Failing row contains (null, null, null).
 2026-05-23 16:25:06,340 - INFO - Armure deja existante [INFO] : Heavy Armor
 2026-05-23 16:25:06,341 - INFO - Arme deja existante [INFO] : Vandal
 2026-05-23 16:25:06,342 - INFO - Armure deja existante [INFO] : Heavy Armor
+2026-05-24 15:45:10,899 - INFO - ====================================================================================================
+2026-05-24 15:45:10,899 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-24 15:45:10,899 - INFO - ====================================================================================================
+2026-05-24 15:45:10,901 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:45:11,790 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-24 15:45:11,790 - INFO - Connexion etablit [OK]
+2026-05-24 15:45:11,792 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:45:13,095 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-24 15:45:13,245 - INFO - Chargement du caches des cartes...
+2026-05-24 15:45:13,246 - INFO - Chargement du cache des armes...
+2026-05-24 15:45:13,247 - INFO - Chargement du cache des armures...
+2026-05-24 15:45:13,248 - INFO - Chargement du cache des agents...
+2026-05-24 15:45:13,249 - INFO - Carte inseree [OK] : Ascent
+2026-05-24 15:45:13,250 - INFO - Match inseree [OK] : 4e377dcb-29ad-4e70-98ea-7f54f583f10a
+2026-05-24 15:45:13,252 - INFO - Joueur inseree [OK] : 0777917d-1dba-5492-996b-d2193e31348d
+2026-05-24 15:45:13,252 - INFO - Agent inseree [OK] : Tejo
+2026-05-24 15:45:13,253 - INFO - Compose inseree [OK] : ('0777917d-1dba-5492-996b-d2193e31348d', 2, 1)
+2026-05-24 15:45:13,253 - INFO - Joueur inseree [OK] : d9d5bab4-acf7-53ae-96a6-5260d2bdbf14
+2026-05-24 15:45:13,254 - INFO - Agent inseree [OK] : Reyna
+2026-05-24 15:45:13,254 - INFO - Compose inseree [OK] : ('d9d5bab4-acf7-53ae-96a6-5260d2bdbf14', 2, 2)
+2026-05-24 15:45:13,254 - INFO - Joueur inseree [OK] : 47495d6e-c73f-559f-984c-8d6389377712
+2026-05-24 15:45:13,254 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:45:13,254 - INFO - Compose inseree [OK] : ('47495d6e-c73f-559f-984c-8d6389377712', 1, 2)
+2026-05-24 15:45:13,254 - INFO - Joueur inseree [OK] : 0c41c7c5-cdb0-5234-a222-840ee5f1025e
+2026-05-24 15:45:13,255 - INFO - Agent inseree [OK] : Jett
+2026-05-24 15:45:13,255 - INFO - Compose inseree [OK] : ('0c41c7c5-cdb0-5234-a222-840ee5f1025e', 1, 3)
+2026-05-24 15:45:13,255 - INFO - Joueur inseree [OK] : 1cf5ad8a-5904-5fd3-b064-757c0956d273
+2026-05-24 15:45:13,255 - INFO - Agent inseree [OK] : Fade
+2026-05-24 15:45:13,255 - INFO - Compose inseree [OK] : ('1cf5ad8a-5904-5fd3-b064-757c0956d273', 1, 4)
+2026-05-24 15:45:13,256 - INFO - Joueur inseree [OK] : da6e9239-f1c1-5566-b807-8d0155dd0d24
+2026-05-24 15:45:13,256 - INFO - Agent deja existant [WARN] : Jett
+2026-05-24 15:45:13,256 - INFO - Compose inseree [OK] : ('da6e9239-f1c1-5566-b807-8d0155dd0d24', 2, 3)
+2026-05-24 15:45:13,256 - INFO - Joueur inseree [OK] : 757635c9-d83f-5b4e-a6e1-87e626f38251
+2026-05-24 15:45:13,256 - INFO - Agent inseree [OK] : Killjoy
+2026-05-24 15:45:13,256 - INFO - Compose inseree [OK] : ('757635c9-d83f-5b4e-a6e1-87e626f38251', 2, 5)
+2026-05-24 15:45:13,256 - INFO - Joueur inseree [OK] : f630a4f2-3b95-5936-9b22-9b8e7301b183
+2026-05-24 15:45:13,257 - INFO - Agent inseree [OK] : Clove
+2026-05-24 15:45:13,257 - INFO - Compose inseree [OK] : ('f630a4f2-3b95-5936-9b22-9b8e7301b183', 2, 6)
+2026-05-24 15:45:13,257 - INFO - Joueur inseree [OK] : b1e9f970-03fb-50b2-9318-7a880b2309d6
+2026-05-24 15:45:13,257 - INFO - Agent deja existant [WARN] : Clove
+2026-05-24 15:45:13,257 - INFO - Compose inseree [OK] : ('b1e9f970-03fb-50b2-9318-7a880b2309d6', 1, 6)
+2026-05-24 15:45:13,257 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:45:13,257 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-24 15:45:13,258 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 1, 5)
+2026-05-24 15:45:13,258 - INFO - Round inseree [OK] : 1
+2026-05-24 15:45:13,259 - INFO - Arme inseree [OK] : Ghost
+2026-05-24 15:45:13,259 - INFO - Armure inseree [OK] : unknown_armor
+2026-05-24 15:45:13,260 - INFO - Arme inseree [OK] : Classic
+2026-05-24 15:45:13,260 - INFO - Armure inseree [OK] : Light Armor
+2026-05-24 15:45:13,262 - ERROR - Erreur : Cache désynchronisé : 1baa85b4-4c70-1284-64bb-6481dfc3bb4e absent du cache et déjà en base, trace : Traceback (most recent call last):
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 410, in insert_data
+    insert_joue(cursor, party_info, teams_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 381, in insert_joue
+    weapon_id = insert_arme(cursor, player_stat)
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 315, in insert_arme
+    raise Exception(f"Cache désynchronisé : {weapon_id} absent du cache et déjà en base")
+Exception: Cache désynchronisé : 1baa85b4-4c70-1284-64bb-6481dfc3bb4e absent du cache et déjà en base
+
+2026-05-24 15:48:29,990 - INFO - ====================================================================================================
+2026-05-24 15:48:29,990 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-24 15:48:29,990 - INFO - ====================================================================================================
+2026-05-24 15:48:29,992 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:48:30,332 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-24 15:48:30,332 - INFO - Connexion etablit [OK]
+2026-05-24 15:48:30,334 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:48:30,922 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-24 15:48:31,070 - INFO - Chargement du caches des cartes...
+2026-05-24 15:48:31,071 - INFO - Chargement du cache des armes...
+2026-05-24 15:48:31,072 - INFO - Chargement du cache des armures...
+2026-05-24 15:48:31,073 - INFO - Chargement du cache des agents...
+2026-05-24 15:48:31,074 - INFO - Carte inseree [OK] : Ascent
+2026-05-24 15:48:31,075 - INFO - Match inseree [OK] : 4e377dcb-29ad-4e70-98ea-7f54f583f10a
+2026-05-24 15:48:31,077 - INFO - Joueur inseree [OK] : 0777917d-1dba-5492-996b-d2193e31348d
+2026-05-24 15:48:31,077 - INFO - Agent inseree [OK] : Tejo
+2026-05-24 15:48:31,078 - INFO - Compose inseree [OK] : ('0777917d-1dba-5492-996b-d2193e31348d', 4, 7)
+2026-05-24 15:48:31,078 - INFO - Joueur inseree [OK] : d9d5bab4-acf7-53ae-96a6-5260d2bdbf14
+2026-05-24 15:48:31,078 - INFO - Agent inseree [OK] : Reyna
+2026-05-24 15:48:31,079 - INFO - Compose inseree [OK] : ('d9d5bab4-acf7-53ae-96a6-5260d2bdbf14', 4, 8)
+2026-05-24 15:48:31,079 - INFO - Joueur inseree [OK] : 47495d6e-c73f-559f-984c-8d6389377712
+2026-05-24 15:48:31,079 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:48:31,079 - INFO - Compose inseree [OK] : ('47495d6e-c73f-559f-984c-8d6389377712', 3, 8)
+2026-05-24 15:48:31,079 - INFO - Joueur inseree [OK] : 0c41c7c5-cdb0-5234-a222-840ee5f1025e
+2026-05-24 15:48:31,079 - INFO - Agent inseree [OK] : Jett
+2026-05-24 15:48:31,080 - INFO - Compose inseree [OK] : ('0c41c7c5-cdb0-5234-a222-840ee5f1025e', 3, 9)
+2026-05-24 15:48:31,080 - INFO - Joueur inseree [OK] : 1cf5ad8a-5904-5fd3-b064-757c0956d273
+2026-05-24 15:48:31,080 - INFO - Agent inseree [OK] : Fade
+2026-05-24 15:48:31,080 - INFO - Compose inseree [OK] : ('1cf5ad8a-5904-5fd3-b064-757c0956d273', 3, 10)
+2026-05-24 15:48:31,080 - INFO - Joueur inseree [OK] : da6e9239-f1c1-5566-b807-8d0155dd0d24
+2026-05-24 15:48:31,080 - INFO - Agent deja existant [WARN] : Jett
+2026-05-24 15:48:31,081 - INFO - Compose inseree [OK] : ('da6e9239-f1c1-5566-b807-8d0155dd0d24', 4, 9)
+2026-05-24 15:48:31,081 - INFO - Joueur inseree [OK] : 757635c9-d83f-5b4e-a6e1-87e626f38251
+2026-05-24 15:48:31,081 - INFO - Agent inseree [OK] : Killjoy
+2026-05-24 15:48:31,081 - INFO - Compose inseree [OK] : ('757635c9-d83f-5b4e-a6e1-87e626f38251', 4, 11)
+2026-05-24 15:48:31,081 - INFO - Joueur inseree [OK] : f630a4f2-3b95-5936-9b22-9b8e7301b183
+2026-05-24 15:48:31,081 - INFO - Agent inseree [OK] : Clove
+2026-05-24 15:48:31,082 - INFO - Compose inseree [OK] : ('f630a4f2-3b95-5936-9b22-9b8e7301b183', 4, 12)
+2026-05-24 15:48:31,082 - INFO - Joueur inseree [OK] : b1e9f970-03fb-50b2-9318-7a880b2309d6
+2026-05-24 15:48:31,082 - INFO - Agent deja existant [WARN] : Clove
+2026-05-24 15:48:31,082 - INFO - Compose inseree [OK] : ('b1e9f970-03fb-50b2-9318-7a880b2309d6', 3, 12)
+2026-05-24 15:48:31,082 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:48:31,082 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-24 15:48:31,082 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 3, 11)
+2026-05-24 15:48:31,083 - INFO - Round inseree [OK] : 2
+2026-05-24 15:48:31,083 - INFO - Arme inseree [OK] : Ghost
+2026-05-24 15:48:31,083 - INFO - Armure inseree [OK] : unknown_armor
+2026-05-24 15:48:31,085 - INFO - Arme inseree [OK] : Classic
+2026-05-24 15:48:31,085 - INFO - Armure inseree [OK] : Light Armor
+2026-05-24 15:48:31,086 - ERROR - Erreur : Cache désynchronisé : 1baa85b4-4c70-1284-64bb-6481dfc3bb4e absent du cache et déjà en base, trace : Traceback (most recent call last):
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 410, in insert_data
+    insert_joue(cursor, party_info, teams_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 381, in insert_joue
+    weapon_id = insert_arme(cursor, player_stat)
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 315, in insert_arme
+    raise Exception(f"Cache désynchronisé : {weapon_id} absent du cache et déjà en base")
+Exception: Cache désynchronisé : 1baa85b4-4c70-1284-64bb-6481dfc3bb4e absent du cache et déjà en base
+
+2026-05-24 15:49:25,521 - INFO - ====================================================================================================
+2026-05-24 15:49:25,521 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-24 15:49:25,521 - INFO - ====================================================================================================
+2026-05-24 15:49:25,522 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:49:25,799 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-24 15:49:25,800 - INFO - Connexion etablit [OK]
+2026-05-24 15:49:25,801 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:49:26,150 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-24 15:49:26,284 - INFO - Chargement du caches des cartes...
+2026-05-24 15:49:26,285 - INFO - Chargement du cache des armes...
+2026-05-24 15:49:26,286 - INFO - Chargement du cache des armures...
+2026-05-24 15:49:26,287 - INFO - Chargement du cache des agents...
+2026-05-24 15:49:26,288 - INFO - Carte inseree [OK] : Ascent
+2026-05-24 15:49:26,289 - INFO - Match inseree [OK] : 4e377dcb-29ad-4e70-98ea-7f54f583f10a
+2026-05-24 15:49:26,291 - INFO - Joueur inseree [OK] : 0777917d-1dba-5492-996b-d2193e31348d
+2026-05-24 15:49:26,291 - INFO - Agent inseree [OK] : Tejo
+2026-05-24 15:49:26,292 - INFO - Compose inseree [OK] : ('0777917d-1dba-5492-996b-d2193e31348d', 5, 13)
+2026-05-24 15:49:26,292 - INFO - Joueur inseree [OK] : d9d5bab4-acf7-53ae-96a6-5260d2bdbf14
+2026-05-24 15:49:26,293 - INFO - Agent inseree [OK] : Reyna
+2026-05-24 15:49:26,293 - INFO - Compose inseree [OK] : ('d9d5bab4-acf7-53ae-96a6-5260d2bdbf14', 5, 14)
+2026-05-24 15:49:26,293 - INFO - Joueur inseree [OK] : 47495d6e-c73f-559f-984c-8d6389377712
+2026-05-24 15:49:26,293 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:49:26,293 - INFO - Compose inseree [OK] : ('47495d6e-c73f-559f-984c-8d6389377712', 6, 14)
+2026-05-24 15:49:26,293 - INFO - Joueur inseree [OK] : 0c41c7c5-cdb0-5234-a222-840ee5f1025e
+2026-05-24 15:49:26,294 - INFO - Agent inseree [OK] : Jett
+2026-05-24 15:49:26,294 - INFO - Compose inseree [OK] : ('0c41c7c5-cdb0-5234-a222-840ee5f1025e', 6, 15)
+2026-05-24 15:49:26,294 - INFO - Joueur inseree [OK] : 1cf5ad8a-5904-5fd3-b064-757c0956d273
+2026-05-24 15:49:26,294 - INFO - Agent inseree [OK] : Fade
+2026-05-24 15:49:26,294 - INFO - Compose inseree [OK] : ('1cf5ad8a-5904-5fd3-b064-757c0956d273', 6, 16)
+2026-05-24 15:49:26,294 - INFO - Joueur inseree [OK] : da6e9239-f1c1-5566-b807-8d0155dd0d24
+2026-05-24 15:49:26,294 - INFO - Agent deja existant [WARN] : Jett
+2026-05-24 15:49:26,295 - INFO - Compose inseree [OK] : ('da6e9239-f1c1-5566-b807-8d0155dd0d24', 5, 15)
+2026-05-24 15:49:26,295 - INFO - Joueur inseree [OK] : 757635c9-d83f-5b4e-a6e1-87e626f38251
+2026-05-24 15:49:26,295 - INFO - Agent inseree [OK] : Killjoy
+2026-05-24 15:49:26,295 - INFO - Compose inseree [OK] : ('757635c9-d83f-5b4e-a6e1-87e626f38251', 5, 17)
+2026-05-24 15:49:26,295 - INFO - Joueur inseree [OK] : f630a4f2-3b95-5936-9b22-9b8e7301b183
+2026-05-24 15:49:26,295 - INFO - Agent inseree [OK] : Clove
+2026-05-24 15:49:26,296 - INFO - Compose inseree [OK] : ('f630a4f2-3b95-5936-9b22-9b8e7301b183', 5, 18)
+2026-05-24 15:49:26,296 - INFO - Joueur inseree [OK] : b1e9f970-03fb-50b2-9318-7a880b2309d6
+2026-05-24 15:49:26,296 - INFO - Agent deja existant [WARN] : Clove
+2026-05-24 15:49:26,296 - INFO - Compose inseree [OK] : ('b1e9f970-03fb-50b2-9318-7a880b2309d6', 6, 18)
+2026-05-24 15:49:26,296 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:49:26,296 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-24 15:49:26,296 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 6, 17)
+2026-05-24 15:49:26,297 - INFO - Round inseree [OK] : 3
+2026-05-24 15:49:26,297 - INFO - Arme inseree [OK] : Ghost
+2026-05-24 15:49:26,297 - INFO - Armure inseree [OK] : unknown_armor
+2026-05-24 15:49:26,298 - INFO - Arme inseree [OK] : Classic
+2026-05-24 15:49:26,299 - INFO - Armure inseree [OK] : Light Armor
+2026-05-24 15:49:26,300 - ERROR - Erreur : Cache désynchronisé : 1baa85b4-4c70-1284-64bb-6481dfc3bb4e absent du cache et déjà en base, trace : Traceback (most recent call last):
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 411, in insert_data
+    insert_joue(cursor, party_info, teams_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 382, in insert_joue
+    weapon_id = insert_arme(cursor, player_stat)
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 316, in insert_arme
+    raise Exception(f"Cache désynchronisé : {weapon_id} absent du cache et déjà en base")
+Exception: Cache désynchronisé : 1baa85b4-4c70-1284-64bb-6481dfc3bb4e absent du cache et déjà en base
+
+2026-05-24 15:50:15,131 - INFO - ====================================================================================================
+2026-05-24 15:50:15,131 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-24 15:50:15,131 - INFO - ====================================================================================================
+2026-05-24 15:50:15,133 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:50:15,427 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-24 15:50:15,427 - INFO - Connexion etablit [OK]
+2026-05-24 15:50:15,429 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:50:15,807 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-24 15:50:15,940 - INFO - Chargement du caches des cartes...
+2026-05-24 15:50:15,941 - INFO - Chargement du cache des armes...
+2026-05-24 15:50:15,942 - INFO - Chargement du cache des armures...
+2026-05-24 15:50:15,943 - INFO - Chargement du cache des agents...
+2026-05-24 15:50:15,944 - INFO - Carte inseree [OK] : Ascent
+2026-05-24 15:50:15,945 - INFO - Match inseree [OK] : 4e377dcb-29ad-4e70-98ea-7f54f583f10a
+2026-05-24 15:50:15,947 - INFO - Joueur inseree [OK] : 0777917d-1dba-5492-996b-d2193e31348d
+2026-05-24 15:50:15,947 - INFO - Agent inseree [OK] : Tejo
+2026-05-24 15:50:15,948 - INFO - Compose inseree [OK] : ('0777917d-1dba-5492-996b-d2193e31348d', 7, 19)
+2026-05-24 15:50:15,948 - INFO - Joueur inseree [OK] : d9d5bab4-acf7-53ae-96a6-5260d2bdbf14
+2026-05-24 15:50:15,948 - INFO - Agent inseree [OK] : Reyna
+2026-05-24 15:50:15,949 - INFO - Compose inseree [OK] : ('d9d5bab4-acf7-53ae-96a6-5260d2bdbf14', 7, 20)
+2026-05-24 15:50:15,949 - INFO - Joueur inseree [OK] : 47495d6e-c73f-559f-984c-8d6389377712
+2026-05-24 15:50:15,949 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:50:15,949 - INFO - Compose inseree [OK] : ('47495d6e-c73f-559f-984c-8d6389377712', 8, 20)
+2026-05-24 15:50:15,949 - INFO - Joueur inseree [OK] : 0c41c7c5-cdb0-5234-a222-840ee5f1025e
+2026-05-24 15:50:15,949 - INFO - Agent inseree [OK] : Jett
+2026-05-24 15:50:15,950 - INFO - Compose inseree [OK] : ('0c41c7c5-cdb0-5234-a222-840ee5f1025e', 8, 21)
+2026-05-24 15:50:15,950 - INFO - Joueur inseree [OK] : 1cf5ad8a-5904-5fd3-b064-757c0956d273
+2026-05-24 15:50:15,950 - INFO - Agent inseree [OK] : Fade
+2026-05-24 15:50:15,950 - INFO - Compose inseree [OK] : ('1cf5ad8a-5904-5fd3-b064-757c0956d273', 8, 22)
+2026-05-24 15:50:15,950 - INFO - Joueur inseree [OK] : da6e9239-f1c1-5566-b807-8d0155dd0d24
+2026-05-24 15:50:15,950 - INFO - Agent deja existant [WARN] : Jett
+2026-05-24 15:50:15,951 - INFO - Compose inseree [OK] : ('da6e9239-f1c1-5566-b807-8d0155dd0d24', 7, 21)
+2026-05-24 15:50:15,951 - INFO - Joueur inseree [OK] : 757635c9-d83f-5b4e-a6e1-87e626f38251
+2026-05-24 15:50:15,951 - INFO - Agent inseree [OK] : Killjoy
+2026-05-24 15:50:15,951 - INFO - Compose inseree [OK] : ('757635c9-d83f-5b4e-a6e1-87e626f38251', 7, 23)
+2026-05-24 15:50:15,951 - INFO - Joueur inseree [OK] : f630a4f2-3b95-5936-9b22-9b8e7301b183
+2026-05-24 15:50:15,951 - INFO - Agent inseree [OK] : Clove
+2026-05-24 15:50:15,952 - INFO - Compose inseree [OK] : ('f630a4f2-3b95-5936-9b22-9b8e7301b183', 7, 24)
+2026-05-24 15:50:15,952 - INFO - Joueur inseree [OK] : b1e9f970-03fb-50b2-9318-7a880b2309d6
+2026-05-24 15:50:15,952 - INFO - Agent deja existant [WARN] : Clove
+2026-05-24 15:50:15,952 - INFO - Compose inseree [OK] : ('b1e9f970-03fb-50b2-9318-7a880b2309d6', 8, 24)
+2026-05-24 15:50:15,952 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:50:15,952 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-24 15:50:15,952 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 8, 23)
+2026-05-24 15:50:15,953 - INFO - Round inseree [OK] : 4
+2026-05-24 15:50:15,953 - INFO - Arme inseree [OK] : Ghost
+2026-05-24 15:50:15,953 - INFO - Armure inseree [OK] : unknown_armor
+2026-05-24 15:50:15,954 - INFO - Arme inseree [OK] : Classic
+2026-05-24 15:50:15,955 - INFO - Armure inseree [OK] : Light Armor
+2026-05-24 15:50:15,955 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:15,956 - ERROR - Erreur : '1baa85b4-4c70-1284-64bb-6481dfc3bb4e', trace : Traceback (most recent call last):
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 411, in insert_data
+    insert_joue(cursor, party_info, teams_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 382, in insert_joue
+    weapon_id = insert_arme(cursor, player_stat)
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 302, in insert_arme
+    return _CACHE_ARMES[weapon_id]
+           ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '1baa85b4-4c70-1284-64bb-6481dfc3bb4e'
+
+2026-05-24 15:50:32,115 - INFO - ====================================================================================================
+2026-05-24 15:50:32,115 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-24 15:50:32,115 - INFO - ====================================================================================================
+2026-05-24 15:50:32,117 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:50:32,423 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-24 15:50:32,424 - INFO - Connexion etablit [OK]
+2026-05-24 15:50:32,425 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:50:32,846 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-24 15:50:32,978 - INFO - Chargement du caches des cartes...
+2026-05-24 15:50:32,979 - INFO - Chargement du cache des armes...
+2026-05-24 15:50:32,980 - INFO - Chargement du cache des armures...
+2026-05-24 15:50:32,981 - INFO - Chargement du cache des agents...
+2026-05-24 15:50:32,982 - INFO - Carte inseree [OK] : Ascent
+2026-05-24 15:50:32,983 - INFO - Match inseree [OK] : 4e377dcb-29ad-4e70-98ea-7f54f583f10a
+2026-05-24 15:50:32,985 - INFO - Joueur inseree [OK] : 0777917d-1dba-5492-996b-d2193e31348d
+2026-05-24 15:50:32,985 - INFO - Agent inseree [OK] : Tejo
+2026-05-24 15:50:32,986 - INFO - Compose inseree [OK] : ('0777917d-1dba-5492-996b-d2193e31348d', 9, 25)
+2026-05-24 15:50:32,986 - INFO - Joueur inseree [OK] : d9d5bab4-acf7-53ae-96a6-5260d2bdbf14
+2026-05-24 15:50:32,986 - INFO - Agent inseree [OK] : Reyna
+2026-05-24 15:50:32,987 - INFO - Compose inseree [OK] : ('d9d5bab4-acf7-53ae-96a6-5260d2bdbf14', 9, 26)
+2026-05-24 15:50:32,987 - INFO - Joueur inseree [OK] : 47495d6e-c73f-559f-984c-8d6389377712
+2026-05-24 15:50:32,987 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:50:32,987 - INFO - Compose inseree [OK] : ('47495d6e-c73f-559f-984c-8d6389377712', 10, 26)
+2026-05-24 15:50:32,988 - INFO - Joueur inseree [OK] : 0c41c7c5-cdb0-5234-a222-840ee5f1025e
+2026-05-24 15:50:32,988 - INFO - Agent inseree [OK] : Jett
+2026-05-24 15:50:32,988 - INFO - Compose inseree [OK] : ('0c41c7c5-cdb0-5234-a222-840ee5f1025e', 10, 27)
+2026-05-24 15:50:32,988 - INFO - Joueur inseree [OK] : 1cf5ad8a-5904-5fd3-b064-757c0956d273
+2026-05-24 15:50:32,989 - INFO - Agent inseree [OK] : Fade
+2026-05-24 15:50:32,989 - INFO - Compose inseree [OK] : ('1cf5ad8a-5904-5fd3-b064-757c0956d273', 10, 28)
+2026-05-24 15:50:32,989 - INFO - Joueur inseree [OK] : da6e9239-f1c1-5566-b807-8d0155dd0d24
+2026-05-24 15:50:32,989 - INFO - Agent deja existant [WARN] : Jett
+2026-05-24 15:50:32,989 - INFO - Compose inseree [OK] : ('da6e9239-f1c1-5566-b807-8d0155dd0d24', 9, 27)
+2026-05-24 15:50:32,989 - INFO - Joueur inseree [OK] : 757635c9-d83f-5b4e-a6e1-87e626f38251
+2026-05-24 15:50:32,989 - INFO - Agent inseree [OK] : Killjoy
+2026-05-24 15:50:32,990 - INFO - Compose inseree [OK] : ('757635c9-d83f-5b4e-a6e1-87e626f38251', 9, 29)
+2026-05-24 15:50:32,990 - INFO - Joueur inseree [OK] : f630a4f2-3b95-5936-9b22-9b8e7301b183
+2026-05-24 15:50:32,990 - INFO - Agent inseree [OK] : Clove
+2026-05-24 15:50:32,990 - INFO - Compose inseree [OK] : ('f630a4f2-3b95-5936-9b22-9b8e7301b183', 9, 30)
+2026-05-24 15:50:32,990 - INFO - Joueur inseree [OK] : b1e9f970-03fb-50b2-9318-7a880b2309d6
+2026-05-24 15:50:32,990 - INFO - Agent deja existant [WARN] : Clove
+2026-05-24 15:50:32,991 - INFO - Compose inseree [OK] : ('b1e9f970-03fb-50b2-9318-7a880b2309d6', 10, 30)
+2026-05-24 15:50:32,991 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:50:32,991 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-24 15:50:32,991 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 10, 29)
+2026-05-24 15:50:32,991 - INFO - Round inseree [OK] : 5
+2026-05-24 15:50:32,992 - INFO - Arme inseree [OK] : Ghost
+2026-05-24 15:50:32,992 - INFO - Armure inseree [OK] : unknown_armor
+2026-05-24 15:50:32,993 - INFO - Arme inseree [OK] : Classic
+2026-05-24 15:50:32,993 - INFO - Armure inseree [OK] : Light Armor
+2026-05-24 15:50:32,993 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:32,993 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:32,994 - ERROR - Erreur : '00000000-0000-0000-0000-000000000000', trace : Traceback (most recent call last):
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 411, in insert_data
+    insert_joue(cursor, party_info, teams_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 383, in insert_joue
+    armor_id = insert_armor(cursor, player_stat)
+  File "C:\Users\dylnm\Insync\nalyd.irsnm@gmail.com\Google Drive\DrivePC\Loisirs\val-analytics-pipeline\src\insert_db.py", line 332, in insert_armor
+    return _CACHE_ARMURE[armor_id]
+           ~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: '00000000-0000-0000-0000-000000000000'
+
+2026-05-24 15:50:44,988 - INFO - ====================================================================================================
+2026-05-24 15:50:44,988 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-24 15:50:44,988 - INFO - ====================================================================================================
+2026-05-24 15:50:44,990 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:50:45,279 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-24 15:50:45,280 - INFO - Connexion etablit [OK]
+2026-05-24 15:50:45,281 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-24 15:50:45,631 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-24 15:50:45,765 - INFO - Chargement du caches des cartes...
+2026-05-24 15:50:45,766 - INFO - Chargement du cache des armes...
+2026-05-24 15:50:45,767 - INFO - Chargement du cache des armures...
+2026-05-24 15:50:45,768 - INFO - Chargement du cache des agents...
+2026-05-24 15:50:45,769 - INFO - Carte inseree [OK] : Ascent
+2026-05-24 15:50:45,770 - INFO - Match inseree [OK] : 4e377dcb-29ad-4e70-98ea-7f54f583f10a
+2026-05-24 15:50:45,777 - INFO - Joueur inseree [OK] : 0777917d-1dba-5492-996b-d2193e31348d
+2026-05-24 15:50:45,778 - INFO - Agent inseree [OK] : Tejo
+2026-05-24 15:50:45,779 - INFO - Compose inseree [OK] : ('0777917d-1dba-5492-996b-d2193e31348d', 11, 31)
+2026-05-24 15:50:45,779 - INFO - Joueur inseree [OK] : d9d5bab4-acf7-53ae-96a6-5260d2bdbf14
+2026-05-24 15:50:45,779 - INFO - Agent inseree [OK] : Reyna
+2026-05-24 15:50:45,780 - INFO - Compose inseree [OK] : ('d9d5bab4-acf7-53ae-96a6-5260d2bdbf14', 11, 32)
+2026-05-24 15:50:45,780 - INFO - Joueur inseree [OK] : 47495d6e-c73f-559f-984c-8d6389377712
+2026-05-24 15:50:45,780 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:50:45,780 - INFO - Compose inseree [OK] : ('47495d6e-c73f-559f-984c-8d6389377712', 12, 32)
+2026-05-24 15:50:45,780 - INFO - Joueur inseree [OK] : 0c41c7c5-cdb0-5234-a222-840ee5f1025e
+2026-05-24 15:50:45,780 - INFO - Agent inseree [OK] : Jett
+2026-05-24 15:50:45,781 - INFO - Compose inseree [OK] : ('0c41c7c5-cdb0-5234-a222-840ee5f1025e', 12, 33)
+2026-05-24 15:50:45,781 - INFO - Joueur inseree [OK] : 1cf5ad8a-5904-5fd3-b064-757c0956d273
+2026-05-24 15:50:45,781 - INFO - Agent inseree [OK] : Fade
+2026-05-24 15:50:45,781 - INFO - Compose inseree [OK] : ('1cf5ad8a-5904-5fd3-b064-757c0956d273', 12, 34)
+2026-05-24 15:50:45,781 - INFO - Joueur inseree [OK] : da6e9239-f1c1-5566-b807-8d0155dd0d24
+2026-05-24 15:50:45,781 - INFO - Agent deja existant [WARN] : Jett
+2026-05-24 15:50:45,782 - INFO - Compose inseree [OK] : ('da6e9239-f1c1-5566-b807-8d0155dd0d24', 11, 33)
+2026-05-24 15:50:45,782 - INFO - Joueur inseree [OK] : 757635c9-d83f-5b4e-a6e1-87e626f38251
+2026-05-24 15:50:45,782 - INFO - Agent inseree [OK] : Killjoy
+2026-05-24 15:50:45,782 - INFO - Compose inseree [OK] : ('757635c9-d83f-5b4e-a6e1-87e626f38251', 11, 35)
+2026-05-24 15:50:45,782 - INFO - Joueur inseree [OK] : f630a4f2-3b95-5936-9b22-9b8e7301b183
+2026-05-24 15:50:45,782 - INFO - Agent inseree [OK] : Clove
+2026-05-24 15:50:45,783 - INFO - Compose inseree [OK] : ('f630a4f2-3b95-5936-9b22-9b8e7301b183', 11, 36)
+2026-05-24 15:50:45,783 - INFO - Joueur inseree [OK] : b1e9f970-03fb-50b2-9318-7a880b2309d6
+2026-05-24 15:50:45,783 - INFO - Agent deja existant [WARN] : Clove
+2026-05-24 15:50:45,783 - INFO - Compose inseree [OK] : ('b1e9f970-03fb-50b2-9318-7a880b2309d6', 12, 36)
+2026-05-24 15:50:45,783 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:50:45,783 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-24 15:50:45,783 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 12, 35)
+2026-05-24 15:50:45,784 - INFO - Round inseree [OK] : 6
+2026-05-24 15:50:45,784 - INFO - Arme inseree [OK] : Ghost
+2026-05-24 15:50:45,784 - INFO - Armure inseree [OK] : unknown_armor
+2026-05-24 15:50:45,785 - INFO - Arme inseree [OK] : Classic
+2026-05-24 15:50:45,785 - INFO - Armure inseree [OK] : Light Armor
+2026-05-24 15:50:45,786 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,786 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,786 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,786 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,786 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,786 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,787 - INFO - Arme inseree [OK] : Sheriff
+2026-05-24 15:50:45,787 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,787 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,787 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,787 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,787 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,787 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,787 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,788 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,788 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,788 - INFO - Round inseree [OK] : 7
+2026-05-24 15:50:45,788 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,788 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,788 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,788 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,788 - INFO - Arme inseree [OK] : Spectre
+2026-05-24 15:50:45,788 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,789 - INFO - Arme inseree [OK] : Bandit
+2026-05-24 15:50:45,789 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,789 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,789 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,789 - INFO - Arme inseree [OK] : Guardian
+2026-05-24 15:50:45,789 - INFO - Armure inseree [OK] : Regen Shield
+2026-05-24 15:50:45,790 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,790 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,790 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,790 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,790 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,790 - INFO - Armure inseree [OK] : Heavy Armor
+2026-05-24 15:50:45,790 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,790 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,791 - INFO - Round inseree [OK] : 8
+2026-05-24 15:50:45,791 - INFO - Arme inseree [OK] : Phantom
+2026-05-24 15:50:45,791 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,791 - INFO - Arme inseree [OK] : Vandal
+2026-05-24 15:50:45,791 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,791 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,791 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,792 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,792 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,792 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,792 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,792 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,792 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,792 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,792 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,792 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,792 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,793 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,793 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,793 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,793 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,793 - INFO - Round inseree [OK] : 9
+2026-05-24 15:50:45,793 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,793 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,793 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,793 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,793 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,794 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,794 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,794 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,794 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,794 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,794 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,794 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,794 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,794 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,795 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,795 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,795 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,795 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,796 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,796 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,796 - INFO - Round inseree [OK] : 10
+2026-05-24 15:50:45,796 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,796 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,796 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,796 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,796 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,796 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,797 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,797 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,797 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,797 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,797 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,797 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,797 - INFO - Arme inseree [OK] : Odin
+2026-05-24 15:50:45,797 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,797 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,798 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,798 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,798 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,798 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,798 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,798 - INFO - Round inseree [OK] : 11
+2026-05-24 15:50:45,798 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,798 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,799 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,799 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,799 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,799 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,799 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,799 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,800 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,800 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,800 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,800 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,800 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,800 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,800 - INFO - Arme inseree [OK] : Bucky
+2026-05-24 15:50:45,800 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,801 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,801 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,801 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,801 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,801 - INFO - Round inseree [OK] : 12
+2026-05-24 15:50:45,801 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,801 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,801 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,801 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,802 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,802 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,802 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,802 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,802 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,802 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,802 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,802 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,802 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,802 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,803 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,803 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,803 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,803 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,803 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,803 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,803 - INFO - Round inseree [OK] : 13
+2026-05-24 15:50:45,803 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,803 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,804 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,804 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,804 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,804 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,804 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,804 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,804 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,804 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,804 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,804 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,805 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,805 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,805 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,805 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,805 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,805 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,805 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,805 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,805 - INFO - Round inseree [OK] : 14
+2026-05-24 15:50:45,806 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,806 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,806 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,806 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,806 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,806 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,806 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,806 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,806 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,806 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,807 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,807 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,807 - INFO - Arme deja existante [WARN] : Odin
+2026-05-24 15:50:45,807 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,807 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,807 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,807 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,807 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,807 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,808 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,808 - INFO - Round inseree [OK] : 15
+2026-05-24 15:50:45,808 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,808 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,808 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,808 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,808 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,808 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,808 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,808 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,809 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,809 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,809 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,809 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,809 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,809 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,809 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,809 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,809 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,809 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,810 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,810 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,810 - INFO - Round inseree [OK] : 16
+2026-05-24 15:50:45,810 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,810 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,810 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,810 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,810 - INFO - Arme inseree [OK] : Operator
+2026-05-24 15:50:45,811 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,811 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,811 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,811 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,811 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,811 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,811 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,811 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,811 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,812 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,812 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,812 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,812 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,812 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,812 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,812 - INFO - Round inseree [OK] : 17
+2026-05-24 15:50:45,812 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,812 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,812 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,813 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,813 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,813 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,813 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,813 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,813 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,813 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,813 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,813 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,813 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,814 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,814 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,814 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,814 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,814 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,814 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,814 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,814 - INFO - Round inseree [OK] : 18
+2026-05-24 15:50:45,814 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,814 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,815 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,815 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,815 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,815 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,815 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,815 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,815 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,815 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,815 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,815 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,816 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,816 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,816 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,816 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,816 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,816 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,816 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,816 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,817 - INFO - Round inseree [OK] : 19
+2026-05-24 15:50:45,817 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,817 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,817 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,817 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,817 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,817 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,817 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,817 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,817 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,817 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,818 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,818 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,818 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,818 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,818 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,818 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,818 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,818 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,818 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,818 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,819 - INFO - Round inseree [OK] : 20
+2026-05-24 15:50:45,819 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,819 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,819 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,819 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,819 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,819 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,819 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,819 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,820 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,820 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,820 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,820 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,820 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,820 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,820 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,820 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,820 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,820 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,821 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,821 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,821 - INFO - Round inseree [OK] : 21
+2026-05-24 15:50:45,821 - INFO - Arme deja existante [WARN] : Bandit
+2026-05-24 15:50:45,821 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,821 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,821 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,821 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,821 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,821 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,821 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,822 - INFO - Arme inseree [OK] : Outlaw
+2026-05-24 15:50:45,822 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,822 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,822 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,822 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,822 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,822 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,822 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,822 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,823 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,823 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,823 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,823 - INFO - Round inseree [OK] : 22
+2026-05-24 15:50:45,823 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,823 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,823 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,823 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,823 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,823 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,824 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,824 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,824 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,824 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,824 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,824 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,824 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,824 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,824 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,824 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,825 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,825 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,825 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,825 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,825 - INFO - Round inseree [OK] : 23
+2026-05-24 15:50:45,825 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,825 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,825 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,825 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,825 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,825 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,826 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,826 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,826 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,826 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,826 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,826 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,826 - INFO - Arme deja existante [WARN] : Bandit
+2026-05-24 15:50:45,826 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,826 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,827 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,827 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,827 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,827 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,827 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,827 - INFO - Round inseree [OK] : 24
+2026-05-24 15:50:45,827 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,827 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,828 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,828 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,828 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,828 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,828 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,828 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,828 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,828 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,828 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,828 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,829 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,829 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,829 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,829 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,829 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,829 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,829 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,829 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,830 - INFO - Round inseree [OK] : 25
+2026-05-24 15:50:45,830 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,830 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,830 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,830 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,830 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,830 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,830 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,830 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,831 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,831 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,831 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,831 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,831 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,831 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,831 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,831 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,831 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,831 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,832 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,832 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,832 - INFO - Round inseree [OK] : 26
+2026-05-24 15:50:45,832 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,832 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,832 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,832 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,832 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,832 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,833 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,833 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,833 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,833 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,833 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,833 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,833 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,833 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,833 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,833 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,834 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,834 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,834 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,834 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,834 - INFO - Round inseree [OK] : 27
+2026-05-24 15:50:45,834 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,834 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,834 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,834 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,835 - INFO - Arme inseree [OK] : Shorty
+2026-05-24 15:50:45,835 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,835 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,835 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,835 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,835 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,835 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,835 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,836 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,836 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,836 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,836 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,836 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,836 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,836 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,836 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,837 - INFO - Round inseree [OK] : 28
+2026-05-24 15:50:45,837 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,837 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,837 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,837 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,837 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,837 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,837 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,837 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,837 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,837 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,838 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,838 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,838 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,838 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,838 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,838 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,838 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,838 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,839 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,839 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,839 - INFO - Round inseree [OK] : 29
+2026-05-24 15:50:45,839 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,839 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,839 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,839 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,839 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,839 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,839 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,839 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,840 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,840 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,840 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,840 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,840 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,840 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,840 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,840 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,841 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,841 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,841 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,841 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,841 - INFO - Round inseree [OK] : 30
+2026-05-24 15:50:45,841 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,841 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,841 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,841 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,841 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,841 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,842 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,842 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,842 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,842 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,842 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,842 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,842 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,842 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,843 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,843 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,843 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,843 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,843 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,843 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,843 - INFO - Round inseree [OK] : 31
+2026-05-24 15:50:45,843 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,843 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,843 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,843 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,844 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,844 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,844 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,844 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,844 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,844 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,844 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,844 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,844 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,845 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,845 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,845 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,845 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,845 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,845 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,845 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,845 - INFO - Round inseree [OK] : 32
+2026-05-24 15:50:45,846 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,846 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,846 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,846 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,846 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,846 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,846 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,846 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,846 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,846 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,847 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,847 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,847 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,847 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,847 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,847 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,847 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,847 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,847 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,847 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,848 - INFO - Round inseree [OK] : 33
+2026-05-24 15:50:45,848 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,848 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,848 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,848 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,848 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,848 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,848 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,848 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,849 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,849 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,849 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,849 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,849 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,849 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,849 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,849 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,850 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,850 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,850 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,850 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,850 - INFO - Carte inseree [OK] : Split
+2026-05-24 15:50:45,850 - INFO - Match inseree [OK] : ee95659e-744f-4c65-8cde-9d5f010680ee
+2026-05-24 15:50:45,851 - INFO - Joueur inseree [OK] : 2c08025e-e3aa-5fd9-888e-96109cf77ef5
+2026-05-24 15:50:45,851 - INFO - Agent inseree [OK] : Chamber
+2026-05-24 15:50:45,851 - INFO - Compose inseree [OK] : ('2c08025e-e3aa-5fd9-888e-96109cf77ef5', 13, 37)
+2026-05-24 15:50:45,851 - INFO - Joueur inseree [OK] : db15f882-2e88-5e5c-befe-fbfa6992489b
+2026-05-24 15:50:45,851 - INFO - Agent inseree [OK] : Omen
+2026-05-24 15:50:45,852 - INFO - Compose inseree [OK] : ('db15f882-2e88-5e5c-befe-fbfa6992489b', 13, 38)
+2026-05-24 15:50:45,852 - INFO - Joueur inseree [OK] : 0cc517f1-96be-565d-a794-25e42e82fa6f
+2026-05-24 15:50:45,852 - INFO - Agent deja existant [WARN] : Fade
+2026-05-24 15:50:45,852 - INFO - Compose inseree [OK] : ('0cc517f1-96be-565d-a794-25e42e82fa6f', 14, 34)
+2026-05-24 15:50:45,852 - INFO - Joueur inseree [OK] : 4f76c835-eef5-5a8f-bc92-d8b85d5c365c
+2026-05-24 15:50:45,852 - INFO - Agent inseree [OK] : Phoenix
+2026-05-24 15:50:45,852 - INFO - Compose inseree [OK] : ('4f76c835-eef5-5a8f-bc92-d8b85d5c365c', 14, 39)
+2026-05-24 15:50:45,852 - INFO - Joueur inseree [OK] : 22e2889e-10a3-57cf-a7c3-5ccab11f86cd
+2026-05-24 15:50:45,853 - INFO - Agent inseree [OK] : Veto
+2026-05-24 15:50:45,853 - INFO - Compose inseree [OK] : ('22e2889e-10a3-57cf-a7c3-5ccab11f86cd', 13, 40)
+2026-05-24 15:50:45,853 - INFO - Joueur inseree [OK] : ac2a426e-5421-5371-90dd-321ef3f0bce3
+2026-05-24 15:50:45,853 - INFO - Agent inseree [OK] : KAY/O
+2026-05-24 15:50:45,853 - INFO - Compose inseree [OK] : ('ac2a426e-5421-5371-90dd-321ef3f0bce3', 13, 41)
+2026-05-24 15:50:45,853 - INFO - Joueur inseree [OK] : ec02be03-db28-5672-8463-b93ab763877b
+2026-05-24 15:50:45,854 - INFO - Agent inseree [OK] : Gekko
+2026-05-24 15:50:45,854 - INFO - Compose inseree [OK] : ('ec02be03-db28-5672-8463-b93ab763877b', 13, 42)
+2026-05-24 15:50:45,854 - INFO - Joueur inseree [OK] : cd9a0a1f-e8b2-57dc-9b6f-7c0cabce56bf
+2026-05-24 15:50:45,854 - INFO - Agent deja existant [WARN] : Omen
+2026-05-24 15:50:45,854 - INFO - Compose inseree [OK] : ('cd9a0a1f-e8b2-57dc-9b6f-7c0cabce56bf', 14, 38)
+2026-05-24 15:50:45,854 - INFO - Joueur inseree [OK] : d1cbb450-b7af-5ada-b972-393fc87b0821
+2026-05-24 15:50:45,854 - INFO - Agent inseree [OK] : Raze
+2026-05-24 15:50:45,854 - INFO - Compose inseree [OK] : ('d1cbb450-b7af-5ada-b972-393fc87b0821', 14, 43)
+2026-05-24 15:50:45,855 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:50:45,855 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-24 15:50:45,855 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 14, 35)
+2026-05-24 15:50:45,855 - INFO - Round inseree [OK] : 34
+2026-05-24 15:50:45,855 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,855 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,855 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,855 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,855 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,856 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,856 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,856 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,856 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,856 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,856 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,856 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,856 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,856 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,857 - INFO - Arme deja existante [WARN] : Bandit
+2026-05-24 15:50:45,857 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,857 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,857 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,857 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,857 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,857 - INFO - Round inseree [OK] : 35
+2026-05-24 15:50:45,857 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,857 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,857 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,857 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,858 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,858 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,858 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,858 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,858 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,858 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,858 - INFO - Arme deja existante [WARN] : Bandit
+2026-05-24 15:50:45,858 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,859 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,859 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,859 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,859 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,859 - INFO - Arme inseree [OK] : Marshal
+2026-05-24 15:50:45,859 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,859 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,859 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,860 - INFO - Round inseree [OK] : 36
+2026-05-24 15:50:45,860 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,860 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,860 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,860 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,860 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,860 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,860 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,860 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,860 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,860 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,861 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,861 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,861 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,861 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,861 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,861 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,861 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,861 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,862 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,862 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,862 - INFO - Round inseree [OK] : 37
+2026-05-24 15:50:45,862 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,862 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,862 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,862 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,862 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,862 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,862 - INFO - Arme deja existante [WARN] : Marshal
+2026-05-24 15:50:45,863 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,863 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,863 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,863 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,863 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,863 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,863 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,863 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,863 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,863 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,863 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,864 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,864 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,864 - INFO - Round inseree [OK] : 38
+2026-05-24 15:50:45,864 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,864 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,864 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,864 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,864 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,864 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,865 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,865 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,865 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,865 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,865 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,865 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,865 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,865 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,865 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,865 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,866 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,866 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,866 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,866 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,866 - INFO - Round inseree [OK] : 39
+2026-05-24 15:50:45,866 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,866 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,866 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,866 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,866 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,866 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,867 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,867 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,867 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,867 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,867 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,867 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,867 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,867 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,867 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,867 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,868 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,868 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,868 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,868 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,868 - INFO - Round inseree [OK] : 40
+2026-05-24 15:50:45,868 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,868 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,868 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,868 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,869 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,869 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,869 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,869 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,869 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,869 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,869 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,869 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,869 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,870 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,870 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,870 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,870 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,870 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,870 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,870 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,870 - INFO - Round inseree [OK] : 41
+2026-05-24 15:50:45,870 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,871 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,871 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,871 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,871 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,871 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,871 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,871 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,871 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,871 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,872 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,872 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,872 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,872 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,872 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,872 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,872 - INFO - Arme deja existante [WARN] : Marshal
+2026-05-24 15:50:45,872 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,872 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,872 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,873 - INFO - Round inseree [OK] : 42
+2026-05-24 15:50:45,873 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,873 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,873 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,873 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,873 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,873 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,873 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,873 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,873 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,873 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,874 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,874 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,874 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,874 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,874 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,874 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,874 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,874 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,875 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,875 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,875 - INFO - Round inseree [OK] : 43
+2026-05-24 15:50:45,875 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,875 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,875 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,875 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,875 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,875 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,876 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,876 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,876 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,876 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,876 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,876 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,876 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,876 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,876 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,876 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,877 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,877 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,877 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,877 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,877 - INFO - Round inseree [OK] : 44
+2026-05-24 15:50:45,877 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,877 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,877 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,877 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,877 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,878 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,878 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,878 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,878 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,878 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,878 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,878 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,878 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,878 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,879 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,879 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,879 - INFO - Arme inseree [OK] : Judge
+2026-05-24 15:50:45,879 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,879 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,879 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,879 - INFO - Round inseree [OK] : 45
+2026-05-24 15:50:45,879 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,879 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,880 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,880 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,880 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,880 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,880 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,880 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,880 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,880 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,880 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,881 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,881 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,881 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,881 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,881 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,881 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,881 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,881 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,881 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,882 - INFO - Round inseree [OK] : 46
+2026-05-24 15:50:45,882 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,882 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,882 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,882 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,882 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,882 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,882 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,882 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,882 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,882 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,883 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,883 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,883 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,883 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,883 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,883 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,883 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,883 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,883 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,883 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,884 - INFO - Round inseree [OK] : 47
+2026-05-24 15:50:45,884 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,884 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,884 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,884 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,884 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,884 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,884 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,884 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,885 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,885 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,885 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,885 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,885 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,885 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,885 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,885 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,885 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,885 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,885 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,885 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,886 - INFO - Round inseree [OK] : 48
+2026-05-24 15:50:45,886 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,886 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,886 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,886 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,886 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,886 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,887 - INFO - Arme deja existante [WARN] : Bandit
+2026-05-24 15:50:45,887 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,887 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,887 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,887 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,887 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,887 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,887 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,887 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,887 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,888 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,888 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,888 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,888 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,888 - INFO - Round inseree [OK] : 49
+2026-05-24 15:50:45,888 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,888 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,888 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,888 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,889 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,889 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,889 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,889 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,889 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,889 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,889 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,889 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,890 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,890 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,890 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,890 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,890 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,890 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,890 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,890 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,891 - INFO - Round inseree [OK] : 50
+2026-05-24 15:50:45,891 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,891 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,891 - INFO - Arme deja existante [WARN] : Judge
+2026-05-24 15:50:45,891 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,891 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,891 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,891 - INFO - Arme deja existante [WARN] : Marshal
+2026-05-24 15:50:45,891 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,891 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,891 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,892 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,892 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,892 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,892 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,892 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,892 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,892 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,892 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,892 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,892 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,893 - INFO - Round inseree [OK] : 51
+2026-05-24 15:50:45,893 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,893 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,893 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,893 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,893 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,893 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,893 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,893 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,894 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,894 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,894 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,894 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,894 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,894 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,894 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,894 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,894 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,894 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,895 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,895 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,895 - INFO - Round inseree [OK] : 52
+2026-05-24 15:50:45,895 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,895 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,895 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,895 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,895 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,895 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,896 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,896 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,896 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,896 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,896 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,896 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,896 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,896 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,897 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,897 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,897 - INFO - Arme deja existante [WARN] : Odin
+2026-05-24 15:50:45,897 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,897 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,897 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,897 - INFO - Round inseree [OK] : 53
+2026-05-24 15:50:45,897 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,897 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,898 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,898 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,898 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,898 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,898 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,898 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,898 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,898 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,898 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,898 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,898 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,899 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,899 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,899 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,899 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,899 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,899 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,899 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,899 - INFO - Round inseree [OK] : 54
+2026-05-24 15:50:45,899 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,899 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,900 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,900 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,900 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,900 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,900 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,900 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,900 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,900 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,900 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,900 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,901 - INFO - Arme inseree [OK] : Bulldog
+2026-05-24 15:50:45,901 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,901 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,901 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,901 - INFO - Arme deja existante [WARN] : Odin
+2026-05-24 15:50:45,901 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,901 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,901 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,902 - INFO - Carte inseree [OK] : Breeze
+2026-05-24 15:50:45,902 - INFO - Match inseree [OK] : 7ce8ff1c-c49a-400f-a44b-d17bd2118d73
+2026-05-24 15:50:45,902 - INFO - Joueur inseree [OK] : b4851cd2-47ef-54cb-884d-9a00908005dc
+2026-05-24 15:50:45,902 - INFO - Agent deja existant [WARN] : Clove
+2026-05-24 15:50:45,903 - INFO - Compose inseree [OK] : ('b4851cd2-47ef-54cb-884d-9a00908005dc', 15, 36)
+2026-05-24 15:50:45,903 - INFO - Joueur inseree [OK] : 65543a64-118e-58d8-af46-0ef0d71acf05
+2026-05-24 15:50:45,903 - INFO - Agent deja existant [WARN] : Gekko
+2026-05-24 15:50:45,903 - INFO - Compose inseree [OK] : ('65543a64-118e-58d8-af46-0ef0d71acf05', 16, 42)
+2026-05-24 15:50:45,903 - INFO - Joueur inseree [OK] : 4c69cea5-8046-59f8-824a-017c795b6c1d
+2026-05-24 15:50:45,903 - INFO - Agent deja existant [WARN] : Phoenix
+2026-05-24 15:50:45,903 - INFO - Compose inseree [OK] : ('4c69cea5-8046-59f8-824a-017c795b6c1d', 16, 39)
+2026-05-24 15:50:45,903 - INFO - Joueur inseree [OK] : 12fb0f7a-d96a-5bce-90ab-2d25beab4c19
+2026-05-24 15:50:45,903 - INFO - Agent deja existant [WARN] : Omen
+2026-05-24 15:50:45,904 - INFO - Compose inseree [OK] : ('12fb0f7a-d96a-5bce-90ab-2d25beab4c19', 16, 38)
+2026-05-24 15:50:45,904 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:50:45,904 - INFO - Agent inseree [OK] : Cypher
+2026-05-24 15:50:45,904 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 16, 44)
+2026-05-24 15:50:45,904 - INFO - Joueur inseree [OK] : 18bfc73b-4330-5585-bc77-c580db7523a7
+2026-05-24 15:50:45,904 - INFO - Agent deja existant [WARN] : Jett
+2026-05-24 15:50:45,904 - INFO - Compose inseree [OK] : ('18bfc73b-4330-5585-bc77-c580db7523a7', 15, 33)
+2026-05-24 15:50:45,905 - INFO - Joueur inseree [OK] : 9a7e7547-7c50-5956-b253-39b05c77ae3d
+2026-05-24 15:50:45,905 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:50:45,905 - INFO - Compose inseree [OK] : ('9a7e7547-7c50-5956-b253-39b05c77ae3d', 15, 32)
+2026-05-24 15:50:45,905 - INFO - Joueur inseree [OK] : f7375566-33ba-5659-aa3f-34503c66f452
+2026-05-24 15:50:45,905 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:50:45,905 - INFO - Compose inseree [OK] : ('f7375566-33ba-5659-aa3f-34503c66f452', 16, 32)
+2026-05-24 15:50:45,905 - INFO - Joueur inseree [OK] : 15b59975-dd04-57b8-add1-dc70db814177
+2026-05-24 15:50:45,906 - INFO - Agent inseree [OK] : Breach
+2026-05-24 15:50:45,906 - INFO - Compose inseree [OK] : ('15b59975-dd04-57b8-add1-dc70db814177', 15, 45)
+2026-05-24 15:50:45,906 - INFO - Joueur inseree [OK] : 47401165-3acc-5e28-a990-350cdc33977a
+2026-05-24 15:50:45,906 - INFO - Agent deja existant [WARN] : Chamber
+2026-05-24 15:50:45,906 - INFO - Compose inseree [OK] : ('47401165-3acc-5e28-a990-350cdc33977a', 15, 37)
+2026-05-24 15:50:45,906 - INFO - Round inseree [OK] : 55
+2026-05-24 15:50:45,906 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,906 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,906 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,906 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,907 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,907 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,907 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,907 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,907 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,907 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,907 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,907 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,907 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,908 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,908 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,908 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,908 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,908 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,908 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,908 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,908 - INFO - Round inseree [OK] : 56
+2026-05-24 15:50:45,908 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,909 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,909 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,909 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,909 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,909 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,909 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,909 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,909 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,909 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,909 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,909 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,910 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,910 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,910 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,910 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,910 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,910 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,910 - INFO - Arme deja existante [WARN] : Outlaw
+2026-05-24 15:50:45,910 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,911 - INFO - Round inseree [OK] : 57
+2026-05-24 15:50:45,911 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,911 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,911 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,911 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,911 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,911 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,911 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,911 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,911 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,911 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,912 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,912 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,912 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,912 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,912 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,912 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,912 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,912 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,913 - INFO - Arme deja existante [WARN] : Outlaw
+2026-05-24 15:50:45,913 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,913 - INFO - Round inseree [OK] : 58
+2026-05-24 15:50:45,913 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,913 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,913 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,913 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,913 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,913 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,914 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,914 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,914 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,914 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,914 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,914 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,914 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,914 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,914 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,914 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,915 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,915 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,915 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,915 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,915 - INFO - Round inseree [OK] : 59
+2026-05-24 15:50:45,915 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,915 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,915 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,915 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,915 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,915 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,916 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,916 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,916 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,916 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,916 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,916 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,916 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,916 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,916 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,917 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,917 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,917 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,917 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,917 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,917 - INFO - Round inseree [OK] : 60
+2026-05-24 15:50:45,917 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,917 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,917 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,917 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,918 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,918 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,918 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,918 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,918 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,918 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,918 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,918 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,918 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,918 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,919 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,919 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,919 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,919 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,919 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,919 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,919 - INFO - Round inseree [OK] : 61
+2026-05-24 15:50:45,919 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,919 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,920 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,920 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,920 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,920 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,920 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,920 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,920 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,920 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,921 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,921 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,921 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,921 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,921 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,921 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,921 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,921 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,921 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,922 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,922 - INFO - Round inseree [OK] : 62
+2026-05-24 15:50:45,922 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,922 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,922 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,922 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,922 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,922 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,922 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,922 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,923 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,923 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,923 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,923 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,923 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,923 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,923 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,923 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,924 - INFO - Arme inseree [OK] : Stinger
+2026-05-24 15:50:45,924 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,924 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,924 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,924 - INFO - Round inseree [OK] : 63
+2026-05-24 15:50:45,924 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,924 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,924 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,924 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,925 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,925 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,925 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,925 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,925 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,925 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,925 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,925 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,925 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,925 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,926 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,926 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,926 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,926 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,926 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,926 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,926 - INFO - Round inseree [OK] : 64
+2026-05-24 15:50:45,926 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,926 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,926 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,927 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,927 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,927 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,927 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,927 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,927 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,927 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,927 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,927 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,928 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,928 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,928 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,928 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,928 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,928 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,928 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,928 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,929 - INFO - Round inseree [OK] : 65
+2026-05-24 15:50:45,929 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,929 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,929 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,929 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,929 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,929 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,929 - INFO - Arme deja existante [WARN] : Stinger
+2026-05-24 15:50:45,929 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,930 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,930 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,930 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,930 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,930 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,930 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,930 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,930 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,930 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,930 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,931 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,931 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,931 - INFO - Round inseree [OK] : 66
+2026-05-24 15:50:45,931 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,931 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,931 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,931 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,931 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,931 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,931 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,932 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,932 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,932 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,932 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,932 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,932 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,932 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,932 - INFO - Arme deja existante [WARN] : Operator
+2026-05-24 15:50:45,932 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,932 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,932 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,933 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,933 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,933 - INFO - Round inseree [OK] : 67
+2026-05-24 15:50:45,933 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,933 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,933 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,933 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,933 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,933 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,934 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,934 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,934 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,934 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,934 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,934 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,934 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,934 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,934 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,934 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,935 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,935 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,935 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,935 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,935 - INFO - Round inseree [OK] : 68
+2026-05-24 15:50:45,935 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,935 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,935 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,935 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,936 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,936 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,936 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,936 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,936 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,936 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,936 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,936 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,937 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,937 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,937 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,937 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,937 - INFO - Arme deja existante [WARN] : Stinger
+2026-05-24 15:50:45,937 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,937 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,937 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,938 - INFO - Round inseree [OK] : 69
+2026-05-24 15:50:45,938 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,938 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,938 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,938 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,938 - INFO - Arme deja existante [WARN] : Outlaw
+2026-05-24 15:50:45,938 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,938 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,938 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,939 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,939 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,939 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,939 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,939 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,939 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,939 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,939 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,939 - INFO - Arme deja existante [WARN] : Stinger
+2026-05-24 15:50:45,939 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,940 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,940 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,940 - INFO - Round inseree [OK] : 70
+2026-05-24 15:50:45,940 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,940 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,940 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,940 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,940 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,940 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,941 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,941 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,941 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,941 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,941 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,941 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,941 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,941 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,941 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,941 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,942 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,942 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,942 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,942 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,942 - INFO - Round inseree [OK] : 71
+2026-05-24 15:50:45,942 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,942 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,942 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,942 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,943 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,943 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,943 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,943 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,943 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,943 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,943 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,943 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,943 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,943 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,944 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,944 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,944 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,944 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,944 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,944 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,944 - INFO - Round inseree [OK] : 72
+2026-05-24 15:50:45,944 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,944 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,945 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,945 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,945 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,945 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,945 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,945 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,945 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,945 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,945 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,945 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,946 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,946 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,946 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,946 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,946 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,946 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,946 - INFO - Arme deja existante [WARN] : Marshal
+2026-05-24 15:50:45,946 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,946 - INFO - Round inseree [OK] : 73
+2026-05-24 15:50:45,947 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,947 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,947 - INFO - Arme deja existante [WARN] : Bandit
+2026-05-24 15:50:45,947 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,947 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,947 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,947 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,947 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,947 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,947 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,948 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,948 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,948 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,948 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,948 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,948 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,948 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,948 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,948 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,948 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,949 - INFO - Round inseree [OK] : 74
+2026-05-24 15:50:45,949 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,949 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,949 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,949 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,949 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,949 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,949 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,949 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,949 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,949 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,950 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,950 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,950 - INFO - Arme deja existante [WARN] : Guardian
+2026-05-24 15:50:45,950 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,950 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,950 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,950 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,950 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,950 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,951 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,951 - INFO - Round inseree [OK] : 75
+2026-05-24 15:50:45,951 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,951 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,951 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,951 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,951 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,951 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,951 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,951 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,952 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,952 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,952 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,952 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,952 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,952 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,952 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,952 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,953 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,953 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,953 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,953 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,953 - INFO - Round inseree [OK] : 76
+2026-05-24 15:50:45,953 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,953 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,954 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,954 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,954 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,954 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,954 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,954 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,954 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,954 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,954 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,954 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,954 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,955 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,955 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,955 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,955 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,955 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,955 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,955 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,956 - INFO - Round inseree [OK] : 77
+2026-05-24 15:50:45,956 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,956 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,956 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,956 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,956 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,956 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,956 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,956 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,957 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,957 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,957 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,957 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,957 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,957 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,957 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,957 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,957 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,957 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,957 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,957 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,958 - INFO - Carte deja existante [WARN] : Split
+2026-05-24 15:50:45,958 - INFO - Match inseree [OK] : e1bd6fb6-4bf2-43ba-8a3d-1b8ab858cdda
+2026-05-24 15:50:45,958 - INFO - Joueur inseree [OK] : 2a9290b9-b1b7-5acf-a486-11c57f9cca98
+2026-05-24 15:50:45,958 - INFO - Agent inseree [OK] : Waylay
+2026-05-24 15:50:45,959 - INFO - Compose inseree [OK] : ('2a9290b9-b1b7-5acf-a486-11c57f9cca98', 17, 46)
+2026-05-24 15:50:45,959 - INFO - Joueur inseree [OK] : b9661fe1-ec87-5828-bd09-9d15db05390b
+2026-05-24 15:50:45,959 - INFO - Agent inseree [OK] : Skye
+2026-05-24 15:50:45,959 - INFO - Compose inseree [OK] : ('b9661fe1-ec87-5828-bd09-9d15db05390b', 17, 47)
+2026-05-24 15:50:45,959 - INFO - Joueur inseree [OK] : 9e5b32d9-f747-5b53-b51d-0f89e550a04a
+2026-05-24 15:50:45,959 - INFO - Agent deja existant [WARN] : Clove
+2026-05-24 15:50:45,959 - INFO - Compose inseree [OK] : ('9e5b32d9-f747-5b53-b51d-0f89e550a04a', 17, 36)
+2026-05-24 15:50:45,960 - INFO - Joueur inseree [OK] : e893ad20-2c4b-5dee-b98b-f7a79de095ca
+2026-05-24 15:50:45,960 - INFO - Agent inseree [OK] : Vyse
+2026-05-24 15:50:45,960 - INFO - Compose inseree [OK] : ('e893ad20-2c4b-5dee-b98b-f7a79de095ca', 18, 48)
+2026-05-24 15:50:45,960 - INFO - Joueur inseree [OK] : 08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e
+2026-05-24 15:50:45,960 - INFO - Agent deja existant [WARN] : Killjoy
+2026-05-24 15:50:45,960 - INFO - Compose inseree [OK] : ('08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e', 18, 35)
+2026-05-24 15:50:45,961 - INFO - Joueur inseree [OK] : b388891c-c530-5a04-af73-d3a2ffa76831
+2026-05-24 15:50:45,961 - INFO - Agent inseree [OK] : Miks
+2026-05-24 15:50:45,961 - INFO - Compose inseree [OK] : ('b388891c-c530-5a04-af73-d3a2ffa76831', 18, 49)
+2026-05-24 15:50:45,961 - INFO - Joueur inseree [OK] : 27044cfe-e757-50a9-a5d7-a9450c1b36f0
+2026-05-24 15:50:45,961 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:50:45,961 - INFO - Compose inseree [OK] : ('27044cfe-e757-50a9-a5d7-a9450c1b36f0', 18, 32)
+2026-05-24 15:50:45,962 - INFO - Joueur inseree [OK] : 034ad896-4104-5d96-8b35-ad0cc91418ba
+2026-05-24 15:50:45,962 - INFO - Agent deja existant [WARN] : Cypher
+2026-05-24 15:50:45,962 - INFO - Compose inseree [OK] : ('034ad896-4104-5d96-8b35-ad0cc91418ba', 17, 44)
+2026-05-24 15:50:45,962 - INFO - Joueur inseree [OK] : b17ab4eb-60c5-5f49-95cb-ec76e7733b92
+2026-05-24 15:50:45,962 - INFO - Agent deja existant [WARN] : Reyna
+2026-05-24 15:50:45,963 - INFO - Compose inseree [OK] : ('b17ab4eb-60c5-5f49-95cb-ec76e7733b92', 17, 32)
+2026-05-24 15:50:45,963 - INFO - Joueur inseree [OK] : 4909770a-c534-54bd-adaa-ed3c848a0137
+2026-05-24 15:50:45,963 - INFO - Agent deja existant [WARN] : Gekko
+2026-05-24 15:50:45,963 - INFO - Compose inseree [OK] : ('4909770a-c534-54bd-adaa-ed3c848a0137', 18, 42)
+2026-05-24 15:50:45,963 - INFO - Round inseree [OK] : 78
+2026-05-24 15:50:45,963 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,963 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,963 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,963 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,964 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,964 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,964 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,964 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,964 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,964 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,964 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,964 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,965 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,965 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,965 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,965 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,965 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,965 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,965 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,965 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,965 - INFO - Round inseree [OK] : 79
+2026-05-24 15:50:45,966 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,966 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,966 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,966 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,966 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,966 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,966 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,966 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,966 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,966 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,966 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,967 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,967 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,967 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,967 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,967 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,967 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,967 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,967 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,967 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,968 - INFO - Round inseree [OK] : 80
+2026-05-24 15:50:45,968 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,968 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,968 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,968 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,968 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,968 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,968 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,968 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,969 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,969 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,969 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,969 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,969 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,969 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,969 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,969 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,970 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,970 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,970 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,970 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,970 - INFO - Round inseree [OK] : 81
+2026-05-24 15:50:45,970 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,970 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,970 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,970 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,971 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,971 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,971 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,971 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,971 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,971 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,971 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,971 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,971 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,971 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,972 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,972 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,972 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,972 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,972 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,972 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,972 - INFO - Round inseree [OK] : 82
+2026-05-24 15:50:45,972 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,973 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,973 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,973 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,973 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,973 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,973 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,973 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,973 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,973 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,974 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,974 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,974 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,974 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,974 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,974 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,974 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,974 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,974 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,974 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,975 - INFO - Round inseree [OK] : 83
+2026-05-24 15:50:45,975 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,975 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,975 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,975 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,975 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,975 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,975 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,975 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,975 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,976 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,976 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,976 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,976 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,976 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,976 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,976 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,976 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,976 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,977 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,977 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,977 - INFO - Round inseree [OK] : 84
+2026-05-24 15:50:45,977 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,977 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,977 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,977 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,977 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,977 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,978 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,978 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,978 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,978 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,978 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,978 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,978 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,978 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,978 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,978 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,979 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,979 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,979 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,979 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,979 - INFO - Round inseree [OK] : 85
+2026-05-24 15:50:45,979 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,979 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,979 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,979 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,980 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,980 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,980 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,980 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,980 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,980 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,980 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,980 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,980 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,980 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,981 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,981 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,981 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,981 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,981 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,981 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,981 - INFO - Round inseree [OK] : 86
+2026-05-24 15:50:45,981 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,981 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,982 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,982 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,982 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,982 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,982 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,982 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,982 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,982 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,982 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,982 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,983 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,983 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,983 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,983 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,983 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,983 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,983 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,983 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,984 - INFO - Round inseree [OK] : 87
+2026-05-24 15:50:45,984 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,984 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,984 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,984 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,984 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,984 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,984 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,985 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,985 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,985 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,985 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,985 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,985 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,985 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,985 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,985 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,986 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,986 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,986 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,986 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,986 - INFO - Round inseree [OK] : 88
+2026-05-24 15:50:45,986 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,986 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,986 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,986 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,987 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,987 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,987 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,987 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,987 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,987 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,987 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,987 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,987 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,987 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,987 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,988 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,988 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,988 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,988 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,988 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,988 - INFO - Round inseree [OK] : 89
+2026-05-24 15:50:45,988 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,988 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,988 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,988 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,989 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,989 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,989 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,989 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,989 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,989 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,989 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,989 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,989 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,989 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,990 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,990 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,990 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,990 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,990 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,990 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,990 - INFO - Round inseree [OK] : 90
+2026-05-24 15:50:45,990 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,991 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,991 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,991 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,991 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,991 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,991 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,991 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,991 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,991 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,992 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,992 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,992 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,992 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,992 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,992 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,992 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,992 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,993 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,993 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,993 - INFO - Round inseree [OK] : 91
+2026-05-24 15:50:45,993 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,993 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,993 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:45,993 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,993 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,993 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,994 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,994 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,994 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,994 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,994 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,994 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,994 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,994 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,994 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,994 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,995 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:45,995 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,995 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:45,995 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:45,995 - INFO - Round inseree [OK] : 92
+2026-05-24 15:50:45,995 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,995 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,995 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,995 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,996 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:45,996 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,996 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,996 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,996 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,996 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,996 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,996 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,996 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:45,996 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,997 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,997 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,997 - INFO - Arme deja existante [WARN] : Stinger
+2026-05-24 15:50:45,997 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,997 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,997 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:45,997 - INFO - Round inseree [OK] : 93
+2026-05-24 15:50:45,998 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,998 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,998 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,998 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,998 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,998 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,998 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,998 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,998 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,998 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,999 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,999 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:45,999 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:45,999 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,999 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,999 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,999 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:45,999 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:45,999 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:45,999 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,000 - INFO - Round inseree [OK] : 94
+2026-05-24 15:50:46,000 - INFO - Arme deja existante [WARN] : Ghost
+2026-05-24 15:50:46,000 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:46,000 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,000 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,000 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,000 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,000 - INFO - Arme deja existante [WARN] : Bucky
+2026-05-24 15:50:46,001 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:46,001 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,001 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:46,001 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,001 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,001 - INFO - Arme deja existante [WARN] : Judge
+2026-05-24 15:50:46,001 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,001 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,002 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,002 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:46,002 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,002 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,002 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,002 - INFO - Round inseree [OK] : 95
+2026-05-24 15:50:46,002 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,002 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,003 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:46,003 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,003 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,003 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,003 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,003 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,003 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,003 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:46,003 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:46,003 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,004 - INFO - Arme deja existante [WARN] : Judge
+2026-05-24 15:50:46,004 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,004 - INFO - Arme deja existante [WARN] : Spectre
+2026-05-24 15:50:46,004 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,004 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:46,004 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,004 - INFO - Arme deja existante [WARN] : Classic
+2026-05-24 15:50:46,004 - INFO - Armure deja existante [WARN] : unknown_armor
+2026-05-24 15:50:46,005 - INFO - Round inseree [OK] : 96
+2026-05-24 15:50:46,005 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,005 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,005 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,005 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,005 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,005 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,005 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,005 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,005 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,005 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,006 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,006 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,006 - INFO - Arme deja existante [WARN] : Judge
+2026-05-24 15:50:46,006 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,006 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,006 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,006 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,006 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,007 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,007 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,007 - INFO - Round inseree [OK] : 97
+2026-05-24 15:50:46,007 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,007 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,007 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:46,007 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,008 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,008 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,008 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,008 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,008 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,008 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,008 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,009 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,009 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,009 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,009 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,009 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,009 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,009 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,009 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,010 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,010 - INFO - Round inseree [OK] : 98
+2026-05-24 15:50:46,010 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,010 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,010 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,010 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,010 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,010 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,011 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,011 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,011 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,011 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,011 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:46,011 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,011 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,011 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,011 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:46,011 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,012 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,012 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,012 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:46,012 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,012 - INFO - Round inseree [OK] : 99
+2026-05-24 15:50:46,012 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,012 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,012 - INFO - Arme deja existante [WARN] : Bulldog
+2026-05-24 15:50:46,012 - INFO - Armure deja existante [WARN] : Regen Shield
+2026-05-24 15:50:46,013 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,013 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,013 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,013 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,013 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,013 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,013 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,013 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,013 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,014 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,014 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,014 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,014 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,014 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,014 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,014 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,015 - INFO - Round inseree [OK] : 100
+2026-05-24 15:50:46,015 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,015 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,015 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,015 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,015 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,015 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,015 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,015 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,015 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,015 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,016 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,016 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,016 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,016 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,016 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,016 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,016 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,016 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,016 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,016 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,017 - INFO - Round inseree [OK] : 101
+2026-05-24 15:50:46,017 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,017 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,017 - INFO - Arme inseree [OK] : unknown_weapon
+2026-05-24 15:50:46,017 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,017 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,017 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,018 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,018 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,018 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,018 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,018 - INFO - Arme deja existante [WARN] : Phantom
+2026-05-24 15:50:46,018 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,018 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,018 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,018 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,018 - INFO - Armure deja existante [WARN] : Light Armor
+2026-05-24 15:50:46,019 - INFO - Arme deja existante [WARN] : Vandal
+2026-05-24 15:50:46,019 - INFO - Armure deja existante [WARN] : Heavy Armor
+2026-05-24 15:50:46,019 - INFO - Arme deja existante [WARN] : Sheriff
+2026-05-24 15:50:46,019 - INFO - Armure deja existante [WARN] : Heavy Armor
