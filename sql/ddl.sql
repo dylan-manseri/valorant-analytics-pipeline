@@ -56,14 +56,14 @@ CREATE TABLE Compose
 CREATE TABLE Armure
 (
     armor_id CHAR(36) PRIMARY KEY,
-    armor_name VARCHAR(20) UNIQUE,
+    armor_name VARCHAR(20) UNIQUE NOT NULL,
     asset_armor VARCHAR(255)
 );
 
 CREATE TABLE Arme
 (
     weapon_id CHAR(36) PRIMARY KEY,
-    weapon_name VARCHAR(20) UNIQUE,
+    weapon_name VARCHAR(20) UNIQUE NOT NULL,
     asset_weapon VARCHAR(255)
 );
 
@@ -101,6 +101,7 @@ CREATE TABLE Joue
 CREATE TABLE Evenement_joueur
 (
     id_event_player SERIAL PRIMARY KEY,
+    round_id INT REFERENCES Round(round_id),
     victim CHAR(36) REFERENCES Joueur(puuid),
     author CHAR(36) REFERENCES Joueur(puuid)
 );
@@ -108,29 +109,28 @@ CREATE TABLE Evenement_joueur
 CREATE TABLE Elimination
 (
     kill_id INT REFERENCES Evenement_joueur(id_event_player),
+    damage_weapon CHAR(36) REFERENCES Arme(weapon_id),
     kill_time_in_round INT NOT NULL,
     kill_time_in_match INT NOT NULL,
-    victim_location_x FLOAT NOT NULL,
-    victim_location_y FLOAT NOT NULL,
-    killer_location_x FLOAT NOT NULL,
-    killer_location_y FLOAT NOT NULL,
     PRIMARY KEY (kill_id)
 );
 
 CREATE TABLE Degat
 (
     damage_id INT REFERENCES Evenement_joueur(id_event_player),
-    headshot INT NOT NULL,
-    bodyshot INT NOT NULL,
-    legshot INT NOT NULL,
+    damage_count INT,
+    headshots INT NOT NULL,
+    bodyshots INT NOT NULL,
+    legshots INT NOT NULL,
     PRIMARY KEY (damage_id)
 );
 
-CREATE TABLE Localisation_alliee
+CREATE TABLE Localisation_joueur
 (
-    teammate_location_id SERIAL PRIMARY KEY,
+    location_id SERIAL PRIMARY KEY,
     player_id CHAR(36) REFERENCES Joueur(puuid),
     kill_id INT REFERENCES Elimination(kill_id),
     x FLOAT NOT NULL,
-    y FLOAT NOT NULL
+    y FLOAT NOT NULL,
+    view_radiant DOUBLE PRECISION NOT NULL
 );

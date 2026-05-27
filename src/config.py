@@ -29,17 +29,42 @@ API_KEY = os.getenv("HENRIK_API_KEY")
 # CONFIGURATION DES LOGS
 # ============================================================
 
-# On paramètre les logs fichier
+LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+
+
+class _ColoredFormatter(logging.Formatter):
+    _COLORS = {
+        logging.INFO:    "\033[32m",  # vert  — insertion réussie
+        logging.WARNING: "\033[33m",  # jaune — doublon attendu
+        logging.ERROR:   "\033[31m",  # rouge — erreur
+    }
+    _RESET = "\033[0m"
+
+    def format(self, record: logging.LogRecord) -> str:
+        color = self._COLORS.get(record.levelno, "")
+        record.msg = f"{color}{record.msg}{self._RESET}"
+        return super().format(record)
+
+
+class _ConsoleFilter(logging.Filter):
+    """Laisse passer uniquement les insertions clés et les erreurs."""
+    _KEYWORDS = ("Carte inseree", "Agent inseree", "Arme inseree", "Match inseree")
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        if record.levelno >= logging.ERROR:
+            return True
+        return any(kw in record.getMessage() for kw in self._KEYWORDS)
+
+
+# Fichier : tout, sans couleurs
 file_handler = logging.FileHandler("../logs/pipeline.log")
 file_handler.setLevel(logging.DEBUG)
+file_handler.setFormatter(logging.Formatter(LOG_FORMAT))
 
-# On paramètre les logs console
+# Console : insertions clés + erreurs, avec couleurs
 console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.WARNING)
+console_handler.setLevel(logging.DEBUG)
+console_handler.setFormatter(_ColoredFormatter(LOG_FORMAT))
+console_handler.addFilter(_ConsoleFilter())
 
-# On configure les logs
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[file_handler, console_handler]
-)
+logging.basicConfig(level=logging.DEBUG, handlers=[file_handler, console_handler])
