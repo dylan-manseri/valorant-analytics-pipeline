@@ -6,9 +6,12 @@ Auteur : Dylan Manseri
 """
 import logging
 import sys
+import os
+from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 
 _LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+_DEFAULT_LOG_PATH = Path(__file__).resolve().parent.parent / "logs" / "pipeline.log"
 
 
 class _ColoredFormatter(logging.Formatter):
@@ -35,7 +38,7 @@ class _ConsoleFilter(logging.Filter):
         return any(kw in record.getMessage() for kw in self._KEYWORDS)
 
 
-def setup_logging(log_path: str = "../logs/pipeline.log") -> None:
+def setup_logging(log_path: Path = _DEFAULT_LOG_PATH) -> None:
     """
     Configure le logger racine avec deux handlers :
     - Fichier : tout, sans couleurs.
