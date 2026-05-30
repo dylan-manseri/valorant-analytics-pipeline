@@ -7,7 +7,6 @@ Auteur : Dylan Manseri
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-from logger import setup_logging
 
 # ============================================================
 # CONFIGURATION BASE DE DONNEES
@@ -27,3 +26,5 @@ DB_PORT = os.getenv("DB_PORT")
 # ============================================================
 
 API_KEY = os.getenv("HENRIK_API_KEY")
+RIOT_USERNAME = os.getenv("RIOT_USERNAME")
+RIOT_TAG = os.getenv("RIOT_TAG")

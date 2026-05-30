@@ -10,10 +10,11 @@ from pathlib import Path
 from api_client import *
 from insert_db import insert_data
 from logger import setup_logging
+from config import RIOT_USERNAME, RIOT_TAG
 
 setup_logging()
 
-id = get_puuid('little elephant', '270')
+id = get_puuid(RIOT_USERNAME, RIOT_TAG)
 matchs_json = fetch_matches(id)
 
 _MATCHES_PATH = Path(__file__).resolve().parent.parent / "data" / "matches.json"

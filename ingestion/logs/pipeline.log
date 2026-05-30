@@ -115344,3 +115344,23 @@ LINE 2: ...     INSERT INTO Evenement_joueur (victim, author, round_id)
 2026-05-30 14:32:11,079 - WARNING - Match deja present en base, ignore : a23e6430-e88b-4a44-b5d0-e982981ee341
 2026-05-30 14:32:11,120 - WARNING - Match deja present en base, ignore : 389926bb-b82a-4298-b042-84e28e22ba3f
 2026-05-30 14:32:11,160 - INFO - Connexion fermee. Pipeline termine.
+2026-05-30 15:29:12,420 - INFO - ====================================================================================================
+2026-05-30 15:29:12,421 - INFO -    NOUVELLE CONNEXION VERS HENRIK API
+2026-05-30 15:29:12,421 - INFO - ====================================================================================================
+2026-05-30 15:29:12,422 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-30 15:29:13,082 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v1/account/little%20elephant/270 HTTP/1.1" 200 None
+2026-05-30 15:29:13,083 - INFO - Connexion etablit [OK]
+2026-05-30 15:29:13,086 - DEBUG - Starting new HTTPS connection (1): api.henrikdev.xyz:443
+2026-05-30 15:29:13,835 - DEBUG - https://api.henrikdev.xyz:443 "GET /valorant/v3/by-puuid/matches/eu/08993ff7-ffe1-58b9-b42c-b4e68b6ebd4e HTTP/1.1" 200 None
+2026-05-30 15:29:16,495 - INFO - Tentative de connexion a la base de donnees (db.gavdwgelvaahogenaeux.supabase.co:5432/postgres)...
+2026-05-30 15:29:17,823 - INFO - Connexion etablie avec succes -> db.gavdwgelvaahogenaeux.supabase.co:5432/postgres
+2026-05-30 15:29:17,823 - INFO - Chargement du caches des cartes...
+2026-05-30 15:29:18,030 - INFO - Chargement du cache des armes...
+2026-05-30 15:29:18,109 - INFO - Chargement du cache des armures...
+2026-05-30 15:29:18,552 - INFO - Chargement du cache des agents...
+2026-05-30 15:29:18,735 - WARNING - Match deja present en base, ignore : 44439580-c129-4a76-b01d-5efffc487447
+2026-05-30 15:29:18,792 - WARNING - Match deja present en base, ignore : e02504a4-71d2-490f-b233-0c464114b0cd
+2026-05-30 15:29:18,851 - WARNING - Match deja present en base, ignore : a89d8530-fde1-47c8-8541-6c5e1393c5a9
+2026-05-30 15:29:18,929 - WARNING - Match deja present en base, ignore : a23e6430-e88b-4a44-b5d0-e982981ee341
+2026-05-30 15:29:19,030 - WARNING - Match deja present en base, ignore : 389926bb-b82a-4298-b042-84e28e22ba3f
+2026-05-30 15:29:19,152 - INFO - Connexion fermee. Pipeline termine.
