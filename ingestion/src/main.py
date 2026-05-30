@@ -18,5 +18,4 @@ matchs_json = fetch_matches(id)
 with open("../data/matches.json", "w", encoding="utf-8") as f:
     json.dump(matchs_json, f, indent=2, ensure_ascii=False)
 
-
 insert_data(matchs_json)
