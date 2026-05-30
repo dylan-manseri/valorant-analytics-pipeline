@@ -5,6 +5,7 @@ Fichier de configuration des différents services utilisé par le projet.
 Auteur : Dylan Manseri
 """
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 from logger import setup_logging
 
@@ -12,7 +13,8 @@ from logger import setup_logging
 # CONFIGURATION BASE DE DONNEES
 # ============================================================
 
-load_dotenv()
+_ENV_PATH = Path(__file__).resolve().parent.parent.parent / ".env"
+load_dotenv(_ENV_PATH)
 
 DB_HOST = os.getenv("DB_HOST")
 DB_NAME = os.getenv("DB_NAME")

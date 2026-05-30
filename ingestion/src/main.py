@@ -5,6 +5,7 @@ Programme principal du projet.
 Auteur : Dylan Manseri
 """
 import json
+from pathlib import Path
 
 from api_client import *
 from insert_db import insert_data
@@ -15,7 +16,9 @@ setup_logging()
 id = get_puuid('little elephant', '270')
 matchs_json = fetch_matches(id)
 
-with open("../data/matches.json", "w", encoding="utf-8") as f:
+_MATCHES_PATH = Path(__file__).resolve().parent.parent / "data" / "matches.json"
+
+with open(_MATCHES_PATH, "w", encoding="utf-8") as f:
     json.dump(matchs_json, f, indent=2, ensure_ascii=False)
 
 insert_data(matchs_json)
