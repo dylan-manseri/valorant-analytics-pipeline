@@ -5,6 +5,8 @@ Configuration du système de logs (formatage coloré, filtres console/fichier).
 Auteur : Dylan Manseri
 """
 import logging
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 _LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 
@@ -25,7 +27,7 @@ class _ColoredFormatter(logging.Formatter):
 
 class _ConsoleFilter(logging.Filter):
     """Laisse passer uniquement les insertions clés et les erreurs."""
-    _KEYWORDS = ("Carte inseree", "Agent inseree", "Arme inseree", "Match inseree")
+    _KEYWORDS = ("connexion etablie", "carte detectee", "match detecte", "agent detectee", "arme detectee")
 
     def filter(self, record: logging.LogRecord) -> bool:
         if record.levelno >= logging.ERROR:
@@ -43,8 +45,11 @@ def setup_logging(log_path: str = "../logs/pipeline.log") -> None:
     file_handler = logging.FileHandler(log_path)
     file_handler.setLevel(logging.DEBUG)
     file_handler.setFormatter(logging.Formatter(_LOG_FORMAT))
+    file_handler.stream.reconfigure(line_buffering=True)
 
-    console_handler = logging.StreamHandler()
+    sys.stdout.reconfigure(line_buffering=True)
+
+    console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(logging.DEBUG)
     console_handler.setFormatter(_ColoredFormatter(_LOG_FORMAT))
     console_handler.addFilter(_ConsoleFilter())

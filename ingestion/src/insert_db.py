@@ -9,7 +9,7 @@ import traceback
 from typing import Dict, Any, Tuple, Optional
 import psycopg2
 from psycopg2.extensions import cursor as PostgresCursor
-from config import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD
+from config import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
 from datetime import datetime
 
 # =========================
@@ -56,6 +56,8 @@ def get_connection() -> Any:
         database=DB_NAME,
         user=DB_USER,
         password=DB_PASSWORD,
+        port=DB_PORT,
+        sslmode="require"
     )
 
 def insert_map(cursor: PostgresCursor,
@@ -81,7 +83,7 @@ def insert_map(cursor: PostgresCursor,
 
     result = cursor.fetchone()
     if result:
-        logging.info(f"Carte inseree [OK] : {map_name}")
+        logging.info(f"Nouvelle carte detectee -> insertion en cours : {map_name}")
         _CACHE_MAPS[map_name] = result[0]
         return result[0]
     raise Exception(f"Cache désynchronisé : {map_name} absent du cache et déjà en base")
@@ -110,9 +112,9 @@ def insert_party(cursor: PostgresCursor,
     """, (party_id, map_id, match_date, mode, server, patch))
 
     if cursor.rowcount == 1:
-        logging.info(f"Match inseree [OK] : {party_id}")
+        logging.info(f"Nouveau match detecte -> insertion en cours : {party_id}")
     else:
-        logging.warning(f"Match deja existant [WARN] : {party_id}")
+        logging.warning(f"Match deja present en base, ignore : {party_id}")
         party_id = None
     return party_id
 
@@ -179,9 +181,9 @@ def insert_player(cursor: PostgresCursor,
             rank = EXCLUDED.rank
     """, (puuid, username, tag, account_level, rank, card))
     if cursor.rowcount == 1:
-        logging.info(f"Joueur inseree [OK] : {puuid}")
+        logging.info(f"Nouveau joueur ajoute en base : {puuid}")
     else:
-        logging.info(f"Joueur mis à jour [OK] : {puuid}")
+        logging.info(f"Joueur existant mis a jour : {puuid}")
     return puuid
 
 def insert_agent(cursor: PostgresCursor,
@@ -204,7 +206,7 @@ def insert_agent(cursor: PostgresCursor,
     """, (agent_name, asset_agent))
     result = cursor.fetchone()
     if result:
-        logging.info(f"Agent inseree [OK] : {agent_name}")
+        logging.info(f"Nouvel agent detecte -> insertion en cours : {agent_name}")
         agent_id = result[0]
         _CACHE_AGENTS[agent_name] = agent_id
         return agent_id
@@ -233,7 +235,7 @@ def insert_compose(cursor: PostgresCursor,
             VALUES (%s, %s, %s, %s, %s, %s)
         """, (puuid, team_id, agent_id, kills, deaths, assists))
         if cursor.rowcount == 1:
-            logging.info(f"Compose inseree [OK] : {puuid, team_id, agent_id}")
+            logging.info(f"Composition inseree pour le joueur {puuid} (team={team_id}, agent={agent_id})")
         else:
             raise Exception(f"Erreur d'insertion compose [ERR] : {puuid, team_id, agent_id}")
 
@@ -274,7 +276,7 @@ def insert_round(cursor: PostgresCursor,
           plant_time_in_round, plant_coord_x, plant_coord_y, winning_team_id))
     result = cursor.fetchone()
     if result:
-        logging.info(f"Round inseree [OK] : {result[0]}")
+        logging.info(f"Round #{result[0]} inséré avec succes")
         return result[0]
     raise Exception(f"Erreur d'insertion round [ERR] : round {num}")
 
@@ -303,7 +305,7 @@ def insert_arme(cursor: PostgresCursor,
     """, (weapon_id, weapon_name, asset_weapon))
     result = cursor.fetchone()
     if result:
-        logging.info(f"Arme inseree [OK] : {weapon_name}")
+        logging.info(f"Nouvelle arme detectee -> insertion en cours : {weapon_name}")
         _CACHE_ARMES[weapon_name] = result[0]
         return result[0]
     raise Exception(f"Cache désynchronisé : {weapon_id} absent du cache et déjà en base")
@@ -331,7 +333,7 @@ def insert_armor(cursor: PostgresCursor,
     """, (armor_id, armor_name, asset_armor))
     result = cursor.fetchone()
     if result:
-        logging.info(f"Armure inseree [OK] : {armor_name}")
+        logging.info(f"Nouvelle armure detectee -> insertion en cours : {armor_name}")
         _CACHE_ARMURE[armor_name] = result[0]
         return result[0]
     raise Exception(f"Cache désynchronisé : {armor_id} absent du cache et déjà en base")
@@ -378,7 +380,7 @@ def insert_event(cursor: PostgresCursor,
     """, (victim, author, round_id))
     result = cursor.fetchone()
     if result:
-        logging.info(f"Insert Evenement_Joueur [OK] : {result[0]}")
+        logging.info(f"Evenement joueur enregistre (id={result[0]})")
         return result[0]
     raise Exception(f"Insert Evenement_Joueur [ERR]")
 
@@ -406,7 +408,7 @@ def insert_damage(cursor: PostgresCursor,
             VALUES (%s, %s, %s, %s, %s)
         """, (event_id, damage_count, headshots, bodyshots, legshots))
         if cursor.rowcount == 1:
-            logging.info(f"Degat insert [OK] : {event_id}")
+            logging.info(f"Degat enregistre (evenement #{event_id})")
         else:
             raise Exception(f"Degat insert [ERR] : {event_id}")
 
@@ -433,7 +435,7 @@ def insert_localisation(cursor: PostgresCursor,
         result = cursor.fetchone()
 
         if result:
-            logging.info(f"Localisation insert [OK] : {puuid}")
+            logging.info(f"Localisation enregistree pour le joueur {puuid}")
         else:
             raise Exception(f"Localisation insert [ERR] : {puuid}")
 
@@ -461,7 +463,7 @@ def insert_kill(cursor: PostgresCursor,
         """, (id_event, kill_time_in_rounds, kill_time_in_match, damage_weapon_id))
         result = cursor.fetchone()
         if result:
-            logging.info(f"Elimination [OK] : {result[0]}")
+            logging.info(f"Elimination enregistree (id={result[0]})")
             insert_localisation(cursor, result[0], kill)
         else:
             raise Exception(f"Erreur d'insertion Elimination [ERR]")
@@ -491,7 +493,7 @@ def insert_joue_event(cursor: PostgresCursor,
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, attribut)
             if cursor.rowcount == 1:
-                logging.info(f"Joue inseree [OK] : {player_stat["player_puuid"], round_id, weapon_id, armor_id}")
+                logging.info(f"Stats de round enregistrees pour {player_stat['player_puuid']} (round={round_id})")
 
                 author = player_stat["player_puuid"]
                 damages = player_stat["damage_events"]
@@ -512,8 +514,11 @@ def insert_data(matchs_json: Dict[str, Any]) -> None:
     connection = None
     cursor = None
     try:
+        logging.info(f"Tentative de connexion a la base de donnees ({DB_HOST}:{DB_PORT}/{DB_NAME})...")
         connection = get_connection()
+        logging.info(f"Connexion etablie avec succes -> {DB_HOST}:{DB_PORT}/{DB_NAME}")
         cursor = connection.cursor()
+        
         _init_caches(cursor)
         for party_info in matchs_json["data"]:
             if party_info["metadata"]["mode_id"] == "competitive" :
