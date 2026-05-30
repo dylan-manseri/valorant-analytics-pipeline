@@ -1,6 +1,6 @@
 <div align="center">
 
-# val-analytics-pipeline
+# valorant-analytics-pipeline
 
 **Pipeline de données end-to-end pour analyser mes matchs Valorant compétitifs**
 
@@ -17,7 +17,7 @@ Ingestion automatisée via l'API Henrik → stockage relationnel sur PostgreSQL 
 
 ## 📖 Aperçu
 
-**val-analytics-pipeline** est un projet personnel qui couvre l'ensemble du cycle de vie d'une donnée : collecte via API, transformation, persistance en base relationnelle, exposition pour analyse, et restitution visuelle.
+**valorant-analytics-pipeline** est un projet personnel qui couvre l'ensemble du cycle de vie d'une donnée : collecte via API, transformation, persistance en base relationnelle, exposition pour analyse, et restitution visuelle.
 
 Concrètement, le pipeline récupère mes 5 derniers matchs Valorant via l'[API Henrik](https://docs.henrikdev.xyz/) et les insère dans une base PostgreSQL hébergée sur Supabase. Seules les **parties compétitives** sont conservées. L'exécution est automatisée via GitHub Actions et tourne plusieurs fois par jour.
 
@@ -65,7 +65,7 @@ flowchart LR
 ## 🗂️ Structure du projet
 
 ```
-val-analytics-pipeline/
+valorant-analytics-pipeline/
 ├── .github/
 │   └── workflows/
 │       └── cron.yml              # Orchestration GitHub Actions
@@ -96,7 +96,7 @@ val-analytics-pipeline/
 La base s'articule autour de **14 tables** regroupées en quatre familles fonctionnelles.
 
 <p align="center">
-  <img src="ingestion/docs/mcd_ver7.png" alt="MCD du projet val-analytics-pipeline" width="720"/>
+  <img src="ingestion/docs/mcd_ver7.png" alt="MCD du projet valorant-analytics-pipeline" width="720"/>
 </p>
 
 | Famille | Tables |
@@ -135,8 +135,8 @@ La base s'articule autour de **14 tables** regroupées en quatre familles foncti
 
 ```bash
 # 1. Cloner le repo
-git clone https://github.com/dylan-manseri/val-analytics-pipeline.git
-cd val-analytics-pipeline
+git clone https://github.com/dylan-manseri/valorant-analytics-pipeline.git
+cd valorant-analytics-pipeline
 
 # 2. Créer un environnement virtuel
 python -m venv .venv
