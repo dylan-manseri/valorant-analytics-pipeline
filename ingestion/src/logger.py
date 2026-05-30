@@ -27,7 +27,7 @@ class _ColoredFormatter(logging.Formatter):
 
 class _ConsoleFilter(logging.Filter):
     """Laisse passer uniquement les insertions clés et les erreurs."""
-    _KEYWORDS = ("connexion etablie", "carte detectee", "match detecte", "agent detectee", "arme detectee")
+    _KEYWORDS = ("connexion etablie", "connexion fermee", "carte detectee", "match detecte", "agent detectee", "arme detectee")
 
     def filter(self, record: logging.LogRecord) -> bool:
         if record.levelno >= logging.ERROR:

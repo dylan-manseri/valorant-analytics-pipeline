@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline
-        run: python ingestion/main.py
+        run: python ingestion/src/main.py
         env:
           HENRIK_API_KEY: ${{ secrets.HENRIK_API_KEY }}
           DB_HOST: ${{ secrets.DB_HOST }}

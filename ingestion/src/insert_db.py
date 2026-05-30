@@ -538,3 +538,4 @@ def insert_data(matchs_json: Dict[str, Any]) -> None:
             cursor.close()
         if connection:
             connection.close()
+            logging.info("Connexion fermee. Pipeline termine.")
