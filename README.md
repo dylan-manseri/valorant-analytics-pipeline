@@ -114,8 +114,6 @@ La base s'articule autour de **14 tables** regroupées en quatre familles foncti
 
 - **Convention de nommage** — Tables et colonnes en minuscules (convention PostgreSQL / Supabase), évite le besoin de guillemets dans les requêtes.
 
-> 📄 Le DDL complet est disponible dans [`ingestion/sql/ddl.sql`](ingestion/sql/ddl.sql). Le MCD est dans [`ingestion/docs/`](ingestion/docs/) (fichiers `mcd_ver*.png`).
-
 ---
 
 ## 🚀 Démarrage rapide
