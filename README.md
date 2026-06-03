@@ -95,10 +95,6 @@ valorant-analytics-pipeline/
 
 La base s'articule autour de **14 tables** regroupées en quatre familles fonctionnelles.
 
-<p align="center">
-  <img src="ingestion/docs/mcd_ver7.png" alt="MCD du projet valorant-analytics-pipeline" width="720"/>
-</p>
-
 | Famille | Tables |
 |---|---|
 | **Référentiels** | `carte`, `agent`, `arme`, `armure` |
