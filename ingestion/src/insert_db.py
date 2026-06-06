@@ -7,9 +7,9 @@ Auteur : Dylan Manseri
 import logging
 import traceback
 from typing import Dict, Any, Tuple, Optional
-import psycopg2
+from common.db import get_connection
 from psycopg2.extensions import cursor as PostgresCursor
-from config import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
+from common.config import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
 from datetime import datetime
 
 # =========================
@@ -48,17 +48,6 @@ def _init_caches(cursor : PostgresCursor) -> None:
         logging.info("Chargement du cache des agents...")
         cursor.execute("SELECT agent_name, agent_id FROM Agent")
         _CACHE_AGENTS = dict(cursor.fetchall())
-
-def get_connection() -> Any:
-    """Retourne une connexion psycopg2 configurée depuis les variables d'env."""
-    return psycopg2.connect(
-        host=DB_HOST,
-        database=DB_NAME,
-        user=DB_USER,
-        password=DB_PASSWORD,
-        port=DB_PORT,
-        sslmode="require"
-    )
 
 def insert_map(cursor: PostgresCursor,
                party_info: Dict[str, Any]

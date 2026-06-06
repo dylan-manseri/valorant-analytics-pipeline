@@ -6,7 +6,7 @@ Auteur : Dylan Manseri
 """
 import sys
 import requests
-from config import API_KEY
+from common.config import API_KEY
 import logging
 
 BASE_URL = "https://api.henrikdev.xyz/valorant"

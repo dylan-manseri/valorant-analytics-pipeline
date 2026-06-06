@@ -69,20 +69,30 @@ valorant-analytics-pipeline/
 ├── .github/
 │   └── workflows/
 │       └── cron.yml              # Orchestration GitHub Actions
+├── common/                       # Code partagé entre modules
+│   ├── config.py                 # Chargement des variables d'env
+│   └── db.py                     # get_connection() + db_cursor()
 ├── ingestion/
 │   ├── data/                     # Exports JSON bruts (debug)
-│   ├── docs/                     # MCD, MLD, schémas
 │   ├── logs/
 │   │   └── pipeline.log          # Logs d'exécution (rotation à venir)
 │   ├── sql/                      # DDL et scripts d'initialisation
 │   └── src/
 │       ├── api_client.py         # Wrappers API Henrik
-│       ├── config.py             # Chargement des variables d'env
 │       ├── insert_db.py          # Fonctions d'insertion (toutes tables)
 │       ├── logger.py             # Configuration logging (couleur, filtres)
 │       └── main.py               # Point d'entrée
-├── analytics/                    # 🚧 Requêtes SQL d'analyse (à venir)
+├── analytics/                    # 🚧 Requêtes SQL d'analyse (en cours)
+│   ├── sql/                      # Une requête par fichier, classée par domaine
+│   │   ├── player/
+│   │   ├── map/
+│   │   ├── agent/
+│   │   └── weapon/
+│   └── src/
+│       ├── queries.py            # Chargement des fichiers .sql
+│       └── player_stats.py       # Fonctions de stats + agrégateur
 ├── dashboard/                    # 🚧 Application Streamlit (à venir)
+├── docs/                         # MCD, MLD, schémas
 ├── .env                          # Variables d'environnement (non versionné)
 ├── .gitignore
 ├── requirements.txt
@@ -96,7 +106,7 @@ valorant-analytics-pipeline/
 La base s'articule autour de **14 tables** regroupées en quatre familles fonctionnelles.
 
 <p align="center">
-  <img src="ingestion/docs/mcd_ver7.png" alt="MCD du projet valorant-analytics-pipeline" width="720"/>
+  <img src="docs/mcd_ver7.png" alt="MCD du projet valorant-analytics-pipeline" width="720"/>
 </p>
 
 | Famille | Tables |
@@ -118,7 +128,59 @@ La base s'articule autour de **14 tables** regroupées en quatre familles foncti
 
 - **Convention de nommage** — Tables et colonnes en minuscules (convention PostgreSQL / Supabase), évite le besoin de guillemets dans les requêtes.
 
-> 📄 Le DDL complet est disponible dans [`ingestion/sql/ddl.sql`](ingestion/sql/ddl.sql). Le MCD est dans [`ingestion/docs/`](ingestion/docs/) (fichiers `mcd_ver*.png`).
+> 📄 Le DDL complet est disponible dans [`ingestion/sql/ddl.sql`](ingestion/sql/ddl.sql). Le MCD est dans [`docs/`](docs/) (fichiers `mcd_ver*.png`).
+
+---
+
+## 📊 Statistiques & analyses
+
+> 🚧 **En cours de développement.** Cette section décrit les métriques calculées à partir de la base, exposées par le module `analytics/` puis affichées dans le dashboard.
+
+### Principe d'architecture
+
+La couche d'analyse suit une séparation stricte **données / présentation** :
+
+- **`analytics/sql/`** — une requête SQL par fichier, organisées par domaine métier (`player/`, `map/`, `agent/`, `weapon/`) et non par page du dashboard.
+- **`analytics/src/`** — des fonctions Python atomiques (une par stat) qui chargent leur fichier `.sql` et l'exécutent sur un curseur passé en paramètre, plus un agrégateur par domaine qui assemble l'ensemble en une seule structure.
+- **`dashboard/`** — consomme les agrégateurs, gère le cycle de vie de la connexion et la mise en cache. Aucune logique SQL côté front.
+
+Cette organisation découple le backend des décisions d'affichage : une même fonction de stat est réutilisable depuis le dashboard, un notebook ou un script.
+
+### Métriques de la page Joueur
+
+Chaque statistique est calculée sur **deux périmètres** : sur **l'ensemble des parties** et sur les **10 dernières parties** (lecture de tendance), via un paramètre `last_n`.
+
+#### 🟢 General
+
+| Statistique | Description | État |
+|---|---|---|
+| Agent le plus joué | Agent le plus fréquemment sélectionné | ✅ |
+| Map la plus jouée | Carte la plus fréquente | 🚧 |
+| Arme la plus jouée | Arme ayant réalisé le plus de kills | 🚧 |
+| KDA moyen | `(kills + assists) / deaths` | 🚧 |
+| Nombre de parties | Total de parties jouées | 🚧 |
+| Win / Lose | Ratio de parties gagnées / perdues | 🚧 |
+
+#### 🔴 Combat
+
+| Statistique | Description | État |
+|---|---|---|
+| Meilleure arme en duel | Arme avec le meilleur taux de victoire en duel | 🚧 |
+| Duels joués / gagnés | Nombre de duels engagés et remportés | 🚧 |
+| Kills dans le dos | Éliminations dans le dos de la victime, calculées via `view_radiant` et la position relative *(stat dérivée, non fournie par l'API)* | 🚧 |
+| Agent le plus éliminé | Agent que j'élimine le plus souvent | 🚧 |
+| Agent qui m'élimine le plus | Agent dont je suis le plus souvent victime | 🚧 |
+| Revenge % | Part des morts alliées proches que je venge | 🚧 |
+
+#### 🔵 Strategy
+
+| Statistique | Description | État |
+|---|---|---|
+| Bonne intention de site | % de rounds où j'ai un combat à proximité du spike planté | 🚧 |
+| Dégâts hors arme | % de dégâts infligés autrement que par une arme (abilities) | 🚧 |
+| Kills isolés | % de kills réalisés loin de mes coéquipiers, calculés par jointure spatiale sur `localisation_joueur` | 🚧 |
+
+> Les statistiques **Combat** et **Strategy** exploitent en particulier la table `localisation_joueur` (positions au moment des kills) pour produire des métriques spatiales non disponibles directement dans l'API.
 
 ---
 
@@ -212,7 +274,7 @@ Le workflow est défini dans [`.github/workflows/cron.yml`](.github/workflows/cr
 ### ✅ Phase 3 — Schéma MCD
 - [x] Analyse de la structure JSON de l'API, sélection des données pertinentes
 - [x] Modélisation des entités et relations (matches, players, match_players, kill_events)
-- [x] Création du MCD *(cf. `ingestion/docs/mcd_ver*.png`)*
+- [x] Création du MCD *(cf. `docs/mcd_ver*.png`)*
 
 ### ✅ Phase 4 — Script SQL
 - [x] Définition de l'ordre de création des tables et des clés étrangères
@@ -234,7 +296,8 @@ Le workflow est défini dans [`.github/workflows/cron.yml`](.github/workflows/cr
 - [x] Gestion des secrets via GitHub Secrets
 
 ### 🚧 Phase 8 — Requêtes SQL d'analyse *(en cours)*
-- [ ] Définir les métriques à analyser (KDA, win rate, headshot %, taux d'utilisation des agents et armes)
+- [x] Définir les métriques à analyser *(cf. section [Statistiques & analyses](#-statistiques--analyses))*
+- [x] Mettre en place l'architecture analytics (séparation SQL / Python / dashboard)
 - [ ] Écrire les requêtes SQL correspondantes
 - [ ] Génération de heatmaps de positions à partir de `localisation_joueur`
 

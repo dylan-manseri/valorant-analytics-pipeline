@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 # CONFIGURATION BASE DE DONNEES
 # ============================================================
 
-_ENV_PATH = Path(__file__).resolve().parent.parent.parent / ".env"
+_ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
 load_dotenv(_ENV_PATH)
 
 DB_HOST = os.getenv("DB_HOST")
