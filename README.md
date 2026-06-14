@@ -149,17 +149,17 @@ Chaque statistique est calculée sur **deux périmètres** : sur **l'ensemble de
 | Statistique | Description | État |
 |---|---|---|
 | Agent le plus joué | Agent le plus fréquemment sélectionné | ✅ |
-| Map la plus jouée | Carte la plus fréquente | 🚧 |
-| Arme la plus jouée | Arme ayant réalisé le plus de kills | 🚧 |
-| KDA moyen | `(kills + assists) / deaths` | 🚧 |
-| Nombre de parties | Total de parties jouées | 🚧 |
-| Win / Lose | Ratio de parties gagnées / perdues | 🚧 |
+| Map la plus jouée | Carte la plus fréquente | ✅ |
+| Arme la plus jouée | Arme ayant réalisé le plus de kills | ✅ |
+| KDA moyen | `(kills + assists) / deaths` | ✅ |
+| Nombre de parties | Total de parties jouées | ✅ |
+| Win / Lose | Ratio de parties gagnées / perdues | ✅ |
 
 #### 🔴 Combat
 
 | Statistique | Description | État |
 |---|---|---|
-| Meilleure arme en duel | Arme avec le meilleur taux de victoire en duel | 🚧 |
+| Meilleure arme en duel | Arme avec le meilleur taux de victoire en duel | ✅ |
 | Duels joués / gagnés | Nombre de duels engagés et remportés | 🚧 |
 | Kills dans le dos | Éliminations dans le dos de la victime, calculées via `view_radiant` et la position relative *(stat dérivée, non fournie par l'API)* | 🚧 |
 | Agent le plus éliminé | Agent que j'élimine le plus souvent | 🚧 |
@@ -309,6 +309,8 @@ Le workflow est défini dans [`.github/workflows/cron.yml`](.github/workflows/cr
 ## ⚠️ Limites connues
 
 - **Liaison `round` ↔ `equipe`** — Un round n'est rattaché à son équipe gagnante que via `winning_team_id`. Il n'existe pas de FK directe entre un round et la `partie` ou les équipes participantes. La donnée reste récupérable (chaque round a forcément une équipe gagnante, elle-même rattachée à sa `partie`), mais cela impose un join supplémentaire dans les requêtes d'analyse.
+
+- **Mort par le spike (auto-élimination)** — Lorsqu'un joueur meurt de l'explosion du spike, l'API enregistre l'événement avec `author = victim` (le joueur est son propre tueur) et une valeur de dégâts atypique de **999** (observé sur un cas). L'arme associée n'est pas renseignée (`unknown_weapon`). Ces événements sont à filtrer (`author != victim`) dans les statistiques de combat pour ne pas fausser les KDA, duels et matchups. *Signature à confirmer sur un échantillon plus large.*
 
 - **Profondeur d'historique** — L'API Henrik renvoie uniquement les 5 derniers matchs par requête. L'historique se construit donc progressivement, au fil des exécutions du cron.
 
