@@ -162,8 +162,8 @@ Chaque statistique est calculée sur **deux périmètres** : sur **l'ensemble de
 | Meilleure arme en duel | Arme avec le meilleur taux de victoire en duel | ✅ |
 | Duels joués / gagnés | Nombre de duels engagés et remportés | ✅ |
 | Kills dans le dos | Éliminations dans le dos de la victime, calculées via `view_radiant` et la position relative *(stat dérivée, non fournie par l'API)* | 🚧 |
-| Agent le plus éliminé | Agent que j'élimine le plus souvent | 🚧 |
-| Agent qui m'élimine le plus | Agent dont je suis le plus souvent victime | 🚧 |
+| Agent le plus éliminé | Agent que j'élimine le plus souvent | ✅ |
+| Agent qui m'élimine le plus | Agent dont je suis le plus souvent victime | ✅ |
 | Revenge % | Part des morts alliées proches que je venge | 🚧 |
 
 #### 🔵 Strategy
